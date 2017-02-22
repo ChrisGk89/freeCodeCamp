@@ -10,10 +10,35 @@
   ],
   "challenges": [
     {
+      "id": "bad87fee1348bd9acdeb9212",
+      "title": "Introduction to the Bootstrap Challenges",
+      "description": [
+        [
+          "",
+          "",
+          "Bootstrap is a front-end framework used to design responsive web pages and web applications. It takes a mobile-first approach to web development. Bootstrap includes pre-built CSS styles and classes, plus some JavaScript functionality.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Bootstrap uses a responsive 12 column grid layout and has design templates for:<br><br><ul><li>buttons</li><li>images</li><li>tables</li><li>forms</li><li>navigation</li></ul><br>This section introduces some of the ways to use Bootstrap in your web projects.",
+          ""
+        ]
+      ],
+      "releasedOn": "",
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7,
+      "isRequired": false,
+      "translations": {}
+    },
+    {
       "id": "bad87fee1348bd9acde08712",
       "title": "Use Responsive Design with Bootstrap Fluid Containers",
       "description": [
-        "In the HTML5 and CSS section of FreeCodeCamp we built a Cat Photo App. Now let's go back to it. This time, we'll style it using the popular Bootstrap responsive CSS framework.",
+        "In the HTML5 and CSS section of freeCodeCamp we built a Cat Photo App. Now let's go back to it. This time, we'll style it using the popular Bootstrap responsive CSS framework.",
         "Bootstrap will figure out how wide your screen is and respond by resizing your HTML elements - hence the name <code>Responsive Design</code>.",
         "With responsive design, there is no need to design a mobile version of your website. It will look good on devices with screens of any width.",
         "You can add Bootstrap to any app by adding the following code to the top of your HTML:",

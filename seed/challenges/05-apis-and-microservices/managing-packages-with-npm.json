@@ -6,33 +6,22 @@
   "challenges": [
     {
       "id": "587d7fb3367417b2b2512bfa",
-        "title": "Introduction to the Managing Packages with npm Challenges",
-        "description": [
-          [
-            "",
-            "",
-            "The Node Package Manager (npm) is a command-line tool used by developers to share and control modules (or packages) of JavaScript code written for use with Node.js.<br><br>When starting a new project, npm generates a <code>package.json</code> file. This file lists the package dependencies for your project. Since npm packages are regularly updated, the <code>package.json</code> file allows you to set specific version numbers for each dependency. This ensures that updates to a package don't break your project.<br><br>npm saves packages in a folder named <code>node_modules</code>. These packages can be installed in two ways:<br><br><ol><li>globally in a root <code>node_modules</code> folder, accessible by all projects.</li><li>locally within a project's own <code>node_modules</code> folder, accessible only to that project.</li></ol><br>Most developers prefer to install packages local to each project to create a separation between the dependencies of different projects.",
-            ""
-          ]
-        ],
-        "releasedOn": "",
-        "challengeSeed": [],
-        "tests": [],
-        "type": "Waypoint",
-        "challengeType": 7,
-        "isRequired": false,
-        "titleEs": "",
-        "descriptionEs": [
-          []
-        ],
-        "titleFr": "",
-        "descriptionFr": [
-          []
-        ],
-        "titleDe": "",
-        "descriptionDe": [
-          []
+      "title": "Introduction to the Managing Packages with npm Challenges",
+      "description": [
+        [
+          "",
+          "",
+          "The Node Package Manager (npm) is a command-line tool used by developers to share and control modules (or packages) of JavaScript code written for use with Node.js.<br><br>When starting a new project, npm generates a <code>package.json</code> file. This file lists the package dependencies for your project. Since npm packages are regularly updated, the <code>package.json</code> file allows you to set specific version numbers for each dependency. This ensures that updates to a package don't break your project.<br><br>npm saves packages in a folder named <code>node_modules</code>. These packages can be installed in two ways:<br><br><ol><li>globally in a root <code>node_modules</code> folder, accessible by all projects.</li><li>locally within a project's own <code>node_modules</code> folder, accessible only to that project.</li></ol><br>Most developers prefer to install packages local to each project to create a separation between the dependencies of different projects.",
+          ""
         ]
+      ],
+      "releasedOn": "Feb 17, 2017",
+      "challengeSeed": [],
+      "tests": [],
+      "type": "waypoint",
+      "challengeType": 7,
+      "isRequired": false,
+      "translations": {}
     },
     {
       "id": "587d7fb3367417b2b2512bfb",
@@ -40,11 +29,11 @@
       "description": [
         "The file package.json is the center of any Node.js project or npm package. It stores information about your project just like the <head>-section in a HTML document describes the content of a webpage. The package.json consists of a single JSON-object where information is stored in \"key\": value-pairs. There are only two required fields in a minimal package.json - name and version - but it’s a good practice to provide additional information about your project that could be useful to future users or maintainers.",
         "The author-field",
-        "If you go to the HyperDev-project that you set up previously and look at on the left side of your screen, you’ll find the file tree where you can see an overview of the various files in your project. Under the file tree’s back-end section, you’ll find package.json - the file that we’ll be improving in the next couple of challenges.",
+        "If you go to the Gomix project that you set up previously and look at on the left side of your screen, you’ll find the file tree where you can see an overview of the various files in your project. Under the file tree’s back-end section, you’ll find package.json - the file that we’ll be improving in the next couple of challenges.",
         "One of the most common pieces of information in this file is the author-field that specifies who’s the creator of a project. It can either be a string or an object with contact details. The object is recommended for bigger projects but in our case, a simple string like the following example will do.",
         "<code>\"author\": \"Jane Doe\",</code>",
         "Instructions",
-        "Add your name to the author-field in the package.json of your HyperDev project.",
+        "Add your name to the author-field in the package.json of your Gomix project.",
         "Remember that you’re writing JSON.",
         "All field-names must use double-quotes (\"), e.g. \"author\"",
         "All fields must be separated with a comma (,)"
@@ -52,7 +41,7 @@
       "challengeSeed": [],
       "tests": [
         {
-          "text": "package.json should have a valid \"author\" key" ,
+          "text": "package.json should have a valid \"author\" key",
           "testString": "getUserInput => $.get(getUserInput('url') + '/_api/package.json').then(data => { var packJson = JSON.parse(data); assert(packJson.author, '\"author\" is missing'); }, xhr => { throw new Error(xhr.responseText); })"
         }
       ],
@@ -60,24 +49,7 @@
       "hints": [],
       "type": "backend",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7fb3367417b2b2512bfc",
@@ -88,7 +60,7 @@
         "Regardless of what you plan for your project, a description is definitely recommended. Let’s add something similar to this:",
         "<code>\"description\": \"A project that does something awesome\",</code>",
         "Instructions",
-        "Add a description to the package.json in your HyperDev project.",
+        "Add a description to the package.json in your Gomix project.",
         "Remember to use double-quotes for field-names (\") and commas (,) to separate fields."
       ],
       "challengeSeed": [],
@@ -102,24 +74,7 @@
       "hints": [],
       "type": "backend",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7fb4367417b2b2512bfd",
@@ -130,7 +85,7 @@
         "<code>\"keywords\": [ \"descriptive\", \"related\", \"words\" ],</code>",
         "As you can see, this field is structured as an array of double-quoted strings.",
         "Instructions",
-        "Add an array of suitable strings to the keywords-field in the package.json of your HyperDev project.",
+        "Add an array of suitable strings to the keywords-field in the package.json of your Gomix project.",
         "One of the keywords should be freecodecamp."
       ],
       "challengeSeed": [],
@@ -152,24 +107,7 @@
       "hints": [],
       "type": "backend",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7fb4367417b2b2512bfe",
@@ -182,7 +120,7 @@
         "Example",
         "<code>\"license\": \"MIT\",</code>",
         "Instructions",
-        "Fill the license-field in the package.json of your HyperDev project as you find suitable."
+        "Fill the license-field in the package.json of your Gomix project as you find suitable."
       ],
       "challengeSeed": [],
       "tests": [
@@ -195,24 +133,7 @@
       "hints": [],
       "type": "backend",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7fb4367417b2b2512bff",
@@ -222,7 +143,7 @@
         "Example",
         "<code>\"version\": \"1.2\",</code>",
         "Instructions",
-        "Add a version to the package.json in your HyperDev project."
+        "Add a version to the package.json in your Gomix project."
       ],
       "challengeSeed": [],
       "tests": [
@@ -235,24 +156,7 @@
       "hints": [],
       "type": "backend",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7fb4367417b2b2512c00",
@@ -283,24 +187,7 @@
       "hints": [],
       "type": "backend",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7fb5367417b2b2512c01",
@@ -336,24 +223,7 @@
       "hints": [],
       "type": "backend",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7fb5367417b2b2512c02",
@@ -374,32 +244,15 @@
           "testString": "getUserInput => $.get(getUserInput('url') + '/_api/package.json').then(data => { var packJson = JSON.parse(data); assert.property(packJson.dependencies, 'moment', '\"dependencies\" does not include \"moment\"'); }, xhr => { throw new Error(xhr.responseText); })"
         },
         {
-          "text": "\"moment\" version should match \"~2.10.x\"",
-          "testString": "getUserInput => $.get(getUserInput('url') + '/_api/package.json').then(data => { var packJson = JSON.parse(data); assert.match(packJson.dependencies.moment, /^\\~2\\.10\\./. 'Wrong version of \"moment\". It should be ~2.10.2'); }, xhr => { throw new Error(xhr.responseText); })"
+          "text": "\"moment\" version should match \"~2.10.2\"",
+          "testString": "getUserInput => $.get(getUserInput('url') + '/_api/package.json').then(data => { var packJson = JSON.parse(data); assert.match(packJson.dependencies.moment, /^\\~2\\.10\\.2/, 'Wrong version of \"moment\". It should be ~2.10.2'); }, xhr => { throw new Error(xhr.responseText); })"
         }
       ],
       "solutions": [],
       "hints": [],
       "type": "backend",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7fb5367417b2b2512c03",
@@ -428,24 +281,7 @@
       "hints": [],
       "type": "backend",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7fb5367417b2b2512c04",
@@ -469,24 +305,7 @@
       "hints": [],
       "type": "backend",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     }
   ]
 }

@@ -9,7 +9,7 @@
       "title": "Metric-Imperial Converter",
       "description": [
         "Build a full stack JavaScript app that is functionally similar to this: <a href='https://hard-twilight.gomix.me/' target='_blank'>https://hard-twilight.gomix.me/</a> on GoMix or on your own publicly accessible domain.",
-        "Start by remixing this boilerplate GoMix project: <a href='https://gomix.com/#!/project/fcc-convert'>https://gomix.com/#!/project/fcc-convert</a>. Then get all the tests for the below user stories to pass."
+        "Start by remixing this boilerplate GoMix project: <a href='https://gomix.com/#!/project/fcc-convert' target='_blank'>https://gomix.com/#!/project/fcc-convert</a>. Then get all the tests for the below user stories to pass."
       ],
       "challengeSeed": [],
       "tests": [
@@ -72,34 +72,14 @@
       "isRequired": true,
       "releasedOn": "January 15, 2017",
       "challengeType": 4,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": []
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d8249367417b2b2512c42",
       "title": "Issue Tracker",
       "description": [
         "Build a full stack JavaScript app that is functionally similar to this: <a href='https://protective-garage.gomix.me/' target='_blank'>https://protective-garage.gomix.me/</a> on GoMix or on your own publicly accessible domain.",
-        "Start by remixing this boilerplate GoMix project: <a href='https://gomix.com/#!/project/fcc-issue'>https://gomix.com/#!/project/fcc-issue</a>. Then get all the tests for the below user stories to pass."
+        "Start by remixing this boilerplate GoMix project: <a href='https://gomix.com/#!/project/fcc-issue' target='_blank'>https://gomix.com/#!/project/fcc-issue</a>. Then get all the tests for the below user stories to pass."
       ],
       "challengeSeed": [],
       "tests": [
@@ -142,34 +122,14 @@
       "isRequired": true,
       "releasedOn": "January 15, 2017",
       "challengeType": 4,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": []
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d824a367417b2b2512c43",
       "title": "Personal Library",
       "description": [
         "Build a full stack JavaScript app that is functionally similar to this: <a href='https://spark-cathedral.gomix.me/' target='_blank'>https://spark-cathedral.gomix.me/</a> on GoMix or on your own publicly accessible domain.",
-        "Start by remixing this boilerplate GoMix project: <a href='https://gomix.com/#!/project/fcc-library'></a>. Then get all the tests for the below user stories to pass."
+        "Start by remixing this boilerplate GoMix project: <a href='https://gomix.com/#!/project/fcc-library' target='_blank'></a>. Then get all the tests for the below user stories to pass."
       ],
       "challengeSeed": [],
       "tests": [
@@ -220,34 +180,14 @@
       "isRequired": true,
       "releasedOn": "January 15, 2017",
       "challengeType": 4,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": []
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d824a367417b2b2512c44",
       "title": "Stock Price Checker",
       "description": [
         "Build a full stack JavaScript app that is functionally similar to this: <a href='https://giant-chronometer.gomix.me/' target='_blank'>https://giant-chronometer.gomix.me/</a> on GoMix or on your own publicly accessible domain.",
-        "Start by remixing this boilerplate GoMix project: <a href='https://gomix.com/#!/project/fcc-stock'>https://gomix.com/#!/project/fcc-stock</a>. Then get all the tests for the below user stories to pass."
+        "Start by remixing this boilerplate GoMix project: <a href='https://gomix.com/#!/project/fcc-stock' target='_blank'>https://gomix.com/#!/project/fcc-stock</a>. Then get all the tests for the below user stories to pass."
       ],
       "challengeSeed": [],
       "tests": [
@@ -286,34 +226,14 @@
       "isRequired": true,
       "releasedOn": "January 15, 2017",
       "challengeType": 4,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": []
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d824a367417b2b2512c45",
       "title": "Anonymous Message Board",
       "description": [
         "Build a full stack JavaScript app that is functionally similar to this: <a href='https://horn-celery.gomix.me/' target='_blank'>https://horn-celery.gomix.me/</a> on GoMix or on your own publicly accessible domain.",
-        "Start by remixing this boilerplate GoMix project: <a href='https://gomix.com/#!/project/fcc-message'>https://gomix.com/#!/project/fcc-message</a>. Then get all the tests for the below user stories to pass."
+        "Start by remixing this boilerplate GoMix project: <a href='https://gomix.com/#!/project/fcc-message' target='_blank'>https://gomix.com/#!/project/fcc-message</a>. Then get all the tests for the below user stories to pass."
       ],
       "challengeSeed": [],
       "tests": [
@@ -372,27 +292,7 @@
       "isRequired": true,
       "releasedOn": "January 15, 2017",
       "challengeType": 4,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": []
-        }
-      }
+      "translations": {}
     }
   ]
 }

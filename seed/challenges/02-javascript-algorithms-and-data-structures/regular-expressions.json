@@ -6,33 +6,22 @@
   "challenges": [
     {
       "id": "587d7db3367417b2b2512b8d",
-        "title": "Introduction to the Regular Expression Challenges",
-        "description": [
-          [
-            "https://camo.githubusercontent.com/85ac1a6783961ce77add6b2e8630dbf6521d33b2/687474703a2f2f696d67732e786b63642e636f6d2f636f6d6963732f726567756c61725f65787072657373696f6e732e706e67",
-            "XKCD web comic showing how regular expressions can save the day",
-            "Regular expressions are special strings that represent a search pattern. Also known as \"regex\" or \"regexp\", they help programmers match, search, and replace text. Regular expressions can appear cryptic because a few characters have special meaning. The goal is to combine the symbols and text into a pattern that matches what you want, but only what you want. This section will cover the characters, a few shortcuts, and the common uses for writing regular expressions.",
-            ""
-          ]
-        ],
-        "releasedOn": "",
-        "challengeSeed": [],
-        "tests": [],
-        "type": "Waypoint",
-        "challengeType": 7,
-        "isRequired": false,
-        "titleEs": "",
-        "descriptionEs": [
-          []
-        ],
-        "titleFr": "",
-        "descriptionFr": [
-          []
-        ],
-        "titleDe": "",
-        "descriptionDe": [
-          []
+      "title": "Introduction to the Regular Expression Challenges",
+      "description": [
+        [
+          "https://camo.githubusercontent.com/85ac1a6783961ce77add6b2e8630dbf6521d33b2/687474703a2f2f696d67732e786b63642e636f6d2f636f6d6963732f726567756c61725f65787072657373696f6e732e706e67",
+          "XKCD web comic showing how regular expressions can save the day",
+          "Regular expressions are special strings that represent a search pattern. Also known as \"regex\" or \"regexp\", they help programmers match, search, and replace text. Regular expressions can appear cryptic because a few characters have special meaning. The goal is to combine the symbols and text into a pattern that matches what you want, but only what you want. This section will cover the characters, a few shortcuts, and the common uses for writing regular expressions.",
+          ""
         ]
+      ],
+      "releasedOn": "Feb 17, 2017",
+      "challengeSeed": [],
+      "tests": [],
+      "type": "waypoint",
+      "challengeType": 7,
+      "isRequired": false,
+      "translations": {}
     },
     {
       "id": "587d7db3367417b2b2512b8e",
@@ -41,7 +30,7 @@
         "Regular expressions are used in programming languages to match parts of strings. You create patterns to help you do that matching.",
         "If you want to find the word <code>\"the\"</code> in the string <code>\"The dog chased the cat\"</code>, you could use the following regular expression: <code>/the/</code>. Notice that quote marks are not required within the regular expression.",
         "JavaScript has multiple ways to use regexes. One way to test a regex is using the <code>.test()</code> method. The <code>.test()</code> method takes the regex, applies it to a string (which is placed inside the parentheses), and returns <code>true</code> or <code>false</code> if your pattern finds something or not.",
-        "<blockquote>let testStr = \"FreeCodeCamp\";<br>let testRegex = /Code/;<br>testRegex.test(testStr);<br>// Returns true</blockquote>",
+        "<blockquote>let testStr = \"freeCodeCamp\";<br>let testRegex = /Code/;<br>testRegex.test(testStr);<br>// Returns true</blockquote>",
         "<hr>",
         "Apply the regex <code>myRegex</code> on the string <code>myString</code> using the <code>.test()</code> method."
       ],
@@ -57,42 +46,19 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db3367417b2b2512b8f",
       "title": "Match Literal Strings",
       "description": [
-        "In the last challenge, you searched for the word <code>\"the\"</code> using the regular expression <code>/the/</code>. This regex is searching for a literal match of the string <code>\"the\"</code>. Here's another example:",
+        "In the last challenge, you searched for the word <code>\"the\"</code> using the regular expression <code>/the/</code>. That regex searched for a literal match of the string <code>\"the\"</code>. Here's another example searching for a literal match of the string <code>\"Kevin\"</code>:",
         "<blockquote>let testStr = \"Hello, my name is Kevin.\";<br>let testRegex = /Kevin/;<br>testRegex.test(testStr);<br>// Returns true</blockquote>",
-        "Any other forms of <code>\"the\"</code> will not match. For example, the regex <code>/the/</code> will not match <code>\"The\"</code> or <code>\"THE\"</code>. A future challenge shows how to match these versions as well.",
+        "Any other forms of <code>\"Kevin\"</code> will not match. For example, the regex <code>/Kevin/</code> will not match <code>\"kevin\"</code> or <code>\"KEVIN\"</code>.",
         "<blockquote>let wrongRegex = /kevin/;<br>wrongRegex.test(testStr);<br>// Returns false</blockquote>",
+        "A future challenge will show how to match those other forms as well.",
         "<hr>",
         "Complete the regex <code>waldoRegex</code> to find <code>\"Waldo\"</code> in the string <code>waldoIsHiding</code> with a literal match."
       ],
@@ -109,33 +75,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db4367417b2b2512b90",
@@ -165,33 +107,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db4367417b2b2512b91",
@@ -199,18 +117,17 @@
       "description": [
         "Up until now, you've looked at regexes to do literal matches of strings. But sometimes, you might want to also match case differences.",
         "Case (or sometimes letter case) is the difference between uppercase letters and lowercase letters. Examples of uppercase are <code>\"A\"</code>, <code>\"B\"</code>, and <code>\"C\"</code>. Examples of lowercase are <code>\"a\"</code>, <code>\"b\"</code>, and <code>\"c\"</code>.",
-        "You can match both cases using what is called a flag. There are other flags but here you'll focus on the flag that ignores case.",
-        "The flag that ignores case is the <code>i</code> flag. You can use it by appending it to the regex. An example of using this flag is <code>/ignorecase/i</code>. This regex can match the strings <code>\"ignorecase\"</code>, <code>\"igNoreCase\"</code>, and <code>\"IgnoreCase\"</code>.",
+        "You can match both cases using what is called a flag. There are other flags but here you'll focus on the flag that ignores case - the <code>i</code> flag. You can use it by appending it to the regex.  An example of using this flag is <code>/ignorecase/i</code>. This regex can match the strings <code>\"ignorecase\"</code>, <code>\"igNoreCase\"</code>, and <code>\"IgnoreCase\"</code>.",
         "<hr>",
-        "Write a regex <code>fccRegex</code> to match <code>\"FreeCodeCamp\"</code>, no matter its case. Your regex should not match any abbreviations or variations with spaces."
+        "Write a regex <code>fccRegex</code> to match <code>\"freeCodeCamp\"</code>, no matter its case. Your regex should not match any abbreviations or variations with spaces."
       ],
       "challengeSeed": [
-        "let myString = \"FreeCodeCamp\";",
+        "let myString = \"freeCodeCamp\";",
         "let fccRegex = /change/; // Change this line",
         "let result = fccRegex.test(myString);"
       ],
       "tests": [
-        "assert(fccRegex.test('freecodecamp'), 'message: Your regex should match <code>freecodecamp</code>');",
+        "assert(fccRegex.test('freeCodeCamp'), 'message: Your regex should match <code>freeCodeCamp</code>');",
         "assert(fccRegex.test('FreeCodeCamp'), 'message: Your regex should match <code>FreeCodeCamp</code>');",
         "assert(fccRegex.test('FreecodeCamp'), 'message: Your regex should match <code>FreecodeCamp</code>');",
         "assert(fccRegex.test('FreeCodecamp'), 'message: Your regex should match <code>FreeCodecamp</code>');",
@@ -224,33 +141,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db4367417b2b2512b92",
@@ -275,33 +168,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db4367417b2b2512b93",
@@ -329,33 +198,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db5367417b2b2512b94",
@@ -387,33 +232,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db5367417b2b2512b95",
@@ -424,7 +245,7 @@
         "For example, you want to match <code>\"bag\"</code>, <code>\"big\"</code>, and <code>\"bug\"</code> but not <code>\"bog\"</code>. You can create the regex <code>/b[aiu]g/</code> to do this. The <code>[aiu]</code> is the character class that will only match the characters <code>\"a\"</code>, <code>\"i\"</code>, or <code>\"u\"</code>.",
         "<blockquote>let bigStr = \"big\";<br>let bagStr = \"bag\";<br>let bugStr = \"bug\";<br>let bogStr = \"bog\";<br>let bgRegex = /b[aiu]g/;<br>bigStr.match(bgRegex); // Returns [\"big\"]<br>bagStr.match(bgRegex); // Returns [\"bag\"]<br>bugStr.match(bgRegex); // Returns [\"bug\"]<br>bogStr.match(bgRegex); // Returns null</blockquote>",
         "<hr>",
-        "Use a character class with vowels (<code>a</code>, <code>e</code>, <code>i</code>, <code>o</code>, <code>u</code>) in your regex <code>vowelRegex</code> to count the number of vowels in the string <code>quoteSample</code>.",
+        "Use a character class with vowels (<code>a</code>, <code>e</code>, <code>i</code>, <code>o</code>, <code>u</code>) in your regex <code>vowelRegex</code> to find all the vowels in the string <code>quoteSample</code>.",
         "<strong>Note</strong><br>Be sure to match both upper- and lowercase vowels."
       ],
       "challengeSeed": [
@@ -433,7 +254,7 @@
         "let result = vowelRegex; // Change this line"
       ],
       "tests": [
-        "assert(result.length == 25, 'message: The number of vowels you counted should be 25.');",
+        "assert(result.length == 25, 'message: You should find all 25 vowels.');",
         "assert(/\\[.*\\]/.test(vowelRegex.source), 'message: Your regex <code>vowelRegex</code> should use a character class.');",
         "assert(vowelRegex.flags.match(/g/).length == 1, 'message: Your regex <code>vowelRegex</code> should use the global flag.');",
         "assert(vowelRegex.flags.match(/i/).length == 1, 'message: Your regex <code>vowelRegex</code> should use the case insensitive flag.');",
@@ -442,33 +263,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db5367417b2b2512b96",
@@ -495,33 +292,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db5367417b2b2512b97",
@@ -530,7 +303,7 @@
         "Using the hyphen (<code>-</code>) to match a range of characters is not limited to letters. It also works to match a range of numbers.",
         "For example, <code>/[0-5]/</code> matches any number between <code>0</code> and <code>5</code>, including the <code>0</code> and <code>5</code>.",
         "Also, it is possible to combine a range of letters and numbers in a single character set.",
-        "<blockquote>let jennyStr = \"Jenny8675309\";<br>let myRegex = /[a-z0-9]/ig;<br>jennyStr.match(myRegex); // matches all letters and numbers in jennyStr</blockquote>",
+        "<blockquote>let jennyStr = \"Jenny8675309\";<br>let myRegex = /[a-z0-9]/ig;<br>// matches all letters and numbers in jennyStr<br>jennyStr.match(myRegex);</blockquote>",
         "<hr>",
         "Create a single regex that matches a range of letters between <code>h</code> and <code>s</code>, and a range of numbers between <code>2</code> and <code>6</code>. Remember to include the appropriate flags in the regex."
       ],
@@ -547,33 +320,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db6367417b2b2512b98",
@@ -598,33 +347,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db6367417b2b2512b99",
@@ -632,14 +357,15 @@
       "description": [
         "Sometimes, you need to match a character (or group of characters) that appears one or more times in a row. This means it occurs at least once, and may be repeated.",
         "You can use the <code>+</code> character to check if that is the case. Remember, the character or pattern has to be present consecutively. That is, the character has to repeat one after the other.",
-        "For example, <code>/a+/g</code> would find one match in <code>\"abc\"</code> and return <code>[\"a\"]</code>. It would also find one match in <code>\"aabc\"</code> and return <code>[\"aa\"]</code>. If it were checking the string <code>\"abab\"</code>, it would find two matches and return <code>[\"a\", \"a\"]</code> because the <code>a</code> characters are not in a row - there is a <code>b</code> between them. Finally, since there is no <code>\"a\"</code> in the string <code>\"bcd\"</code>, it wouldn't find a match.",
+        "For example, <code>/a+/g</code> would find one match in <code>\"abc\"</code> and return <code>[\"a\"]</code>. Because of the <code>+</code>, it would also find a single match in <code>\"aabc\"</code> and return <code>[\"aa\"]</code>.",
+        "If it were instead checking the string <code>\"abab\"</code>, it would find two matches and return <code>[\"a\", \"a\"]</code> because the <code>a</code> characters are not in a row - there is a <code>b</code> between them. Finally, since there is no <code>\"a\"</code> in the string <code>\"bcd\"</code>, it wouldn't find a match.",
         "<hr>",
         "You want to find matches when the letter <code>s</code> occurs one or more times in <code>\"Mississippi\"</code>. Write a regex that uses the <code>+</code> sign."
       ],
       "challengeSeed": [
         "let difficultSpelling = \"Mississippi\";",
         "let myRegex = /change/; // Change this line",
-        "let result = difficultSpelling.match(myRegex)"
+        "let result = difficultSpelling.match(myRegex);"
       ],
       "tests": [
         "assert(/\\+/.test(myRegex.source), 'message: Your regex <code>myRegex</code> should use the <code>+</code> sign to match one or more <code>s</code> characters.');",
@@ -649,33 +375,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db6367417b2b2512b9a",
@@ -705,33 +407,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db6367417b2b2512b9b",
@@ -739,13 +417,13 @@
       "description": [
         "In regular expressions, a <code>greedy</code> match finds the longest possible part of a string that fits the regex pattern and returns it as a match. The alternative is called a <code>lazy</code> match, which finds the smallest possible part of the string that satisfies the regex pattern.",
         "You can apply the regex <code>/t[a-z]*i/</code> to the string <code>\"titanic\"</code>. This regex is basically a pattern that starts with <code>t</code>, ends with <code>i</code>, and has some letters in between.",
-        "Regular expressions are by default <code>greedy</code>, so the match would return <code>[\"titani\"]<c/ode>. It finds the largest sub-string possible to fit the pattern.",
+        "Regular expressions are by default <code>greedy</code>, so the match would return <code>[\"titani\"]</code>. It finds the largest sub-string possible to fit the pattern.",
         "However, you can use the <code>?</code> character to change it to <code>lazy</code> matching. <code>\"titanic\"</code> matched against the adjusted regex of <code>/t[a-z]*?i/</code> returns <code>[\"ti\"]</code>.",
         "<hr>",
         "Fix the regex <code>/&lt;.*&gt;/</code> to return the HTML tag <code>&lt;h1&gt;</code> and not the text <code>\"&lt;h1&gt;Winter is coming&lt;/h1&gt;\"</code>. Remember the wildcard <code>.</code> in a regular expression matches any character."
       ],
       "challengeSeed": [
-        "let text = \"<h1>Winter is coming</h1>\"",
+        "let text = \"<h1>Winter is coming</h1>\";",
         "let myRegex = /<.*>/; // Change this line",
         "let result = text.match(myRegex);"
       ],
@@ -755,33 +433,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db7367417b2b2512b9c",
@@ -798,12 +452,12 @@
       ],
       "challengeSeed": [
         "// example crowd gathering",
-        "let crowd = 'P1P2P3P4P5P6CCCP7P8P9'",
+        "let crowd = 'P1P2P3P4P5P6CCCP7P8P9';",
         "",
-        "let reCriminals = /./ // Change this line",
+        "let reCriminals = /./; // Change this line",
         "",
-        "let matchedCriminals = crowd.match(reCriminals)",
-        "console.log(matchedCriminals)"
+        "let matchedCriminals = crowd.match(reCriminals);",
+        "console.log(matchedCriminals);"
       ],
       "tests": [
         "assert('C'.match(reCriminals) && 'C'.match(reCriminals)[0] == 'C', 'message: Your regex should match <em>one</em> criminal (\"<code>C</code>\") in <code>\"C\"</code>');",
@@ -817,33 +471,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db7367417b2b2512b9d",
@@ -856,7 +486,7 @@
         "Use the <code>caret</code> character in a regex to find <code>\"Cal\"</code> only in the beginning of the string <code>rickyAndCal</code>."
       ],
       "challengeSeed": [
-        "let rickyAndCal = \"Cal and Ricky both like racing.\"",
+        "let rickyAndCal = \"Cal and Ricky both like racing.\";",
         "let calRegex = /change/; // Change this line",
         "let result = calRegex.test(rickyAndCal);"
       ],
@@ -869,33 +499,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db7367417b2b2512b9e",
@@ -920,33 +526,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db7367417b2b2512b9f",
@@ -966,7 +548,6 @@
       ],
       "tests": [
         "assert(alphabetRegexV2.global, 'message: Your regex should use the global flag.');",
-        "assert(/i/.test(alphabetRegexV2.flags), 'message: Your regex should use the case insensitive flag.');",
         "assert(\"The five boxing wizards jump quickly.\".match(alphabetRegexV2).length === 31, 'message: Your regex should find 31 alphanumeric characters in <code>\"The five boxing wizards jump quickly.\"</code>');",
         "assert(\"Pack my box with five dozen liquor jugs.\".match(alphabetRegexV2).length === 32, 'message: Your regex should find 32 alphanumeric characters in <code>\"Pack my box with five dozen liquor jugs.\"</code>');",
         "assert(\"How vexingly quick daft zebras jump!\".match(alphabetRegexV2).length === 30, 'message: Your regex should find 30 alphanumeric characters in <code>\"How vexingly quick daft zebras jump!\"</code>');",
@@ -975,33 +556,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db8367417b2b2512ba0",
@@ -1028,33 +585,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "5d712346c441eddfaeb5bdef",
@@ -1083,33 +616,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db8367417b2b2512ba1",
@@ -1138,33 +647,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db8367417b2b2512ba2",
@@ -1194,33 +679,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db8367417b2b2512ba3",
@@ -1246,33 +707,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db9367417b2b2512ba4",
@@ -1298,33 +735,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db9367417b2b2512ba5",
@@ -1354,33 +767,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db9367417b2b2512ba6",
@@ -1410,33 +799,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7db9367417b2b2512ba7",
@@ -1465,33 +830,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7dba367417b2b2512ba8",
@@ -1518,33 +859,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7dba367417b2b2512ba9",
@@ -1578,33 +895,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7dbb367417b2b2512baa",
@@ -1612,7 +905,7 @@
       "description": [
         "Some patterns you search for will occur multiple times in a string. It is wasteful to manually repeat that regex. There is a better way to specify when you have multiple repeat substrings in your string.",
         "You can search for repeat substrings using <code>capture groups</code>. Parentheses, <code>(</code> and <code>)</code>, are used to find repeat substrings. You put the regex of the pattern that will repeat in between the parentheses.",
-        "To specify where that repeat string will appear, you use a backslash (\\) and then a number. This number starts at 1 and increases with each additional capture group you use. An example would be \\1 to match the first group.",
+        "To specify where that repeat string will appear, you use a backslash (<code>\\</code>) and then a number. This number starts at 1 and increases with each additional capture group you use. An example would be <code>\\1</code> to match the first group.",
         "The example below matches any word that occurs twice separated by a space:",
         "<blockquote>let repeatStr = \"regex regex\";<br>let repeatRegex = /(\\w+)\\s\\1/;<br>repeatRegex.test(repeatStr); // Returns true<br>repeatStr.match(repeatRegex); // Returns [\"regex regex\", \"regex\"]</blockquote>",
         "Using the <code>.match()</code> method on a string will return an array with the string it matches, along with its capture group.",
@@ -1636,33 +929,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7dbb367417b2b2512bab",
@@ -1690,33 +959,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7dbb367417b2b2512bac",
@@ -1742,33 +987,9 @@
         "You can use .replace() to remove the matched items by replacing them with an empty string."
       ],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 1,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     }
   ]
 }

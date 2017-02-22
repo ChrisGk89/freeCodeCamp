@@ -15,24 +15,13 @@
           ""
         ]
       ],
-      "releasedOn": "",
+      "releasedOn": "Feb 17, 2017",
       "challengeSeed": [],
       "tests": [],
-      "type": "Waypoint",
+      "type": "waypoint",
       "challengeType": 7,
       "isRequired": false,
-      "titleEs": "",
-      "descriptionEs": [
-        []
-      ],
-      "titleFr": "",
-      "descriptionFr": [
-        []
-      ],
-      "titleDe": "",
-      "descriptionDe": [
-        []
-      ]
+      "translations": {}
     },
     {
       "id": "587d78ab367417b2b2512af0",
@@ -41,61 +30,42 @@
         "This section uses alternating challenge styles to show how to use CSS to position elements in a flexible way. First, a challenge will explain theory, then a practical challenge using a simple tweet component will apply the flexbox concept.",
         "Placing the CSS property <code>display: flex;</code> on an element allows you to use other flex properties to build a responsive page.",
         "<hr>",
-        "Add the CSS property <code>display</code> to both <code>#box-1</code> and <code>#box-2</code> and set each to a value of flex."
+        "Add the CSS property <code>display</code> to <code>#box-container</code> and set its value to flex."
       ],
       "challengeSeed": [
         "<style>",
+        "  #box-container {",
+        "    ",
+        "  }",
+        "  ",
         "  #box-1 {",
         "    background-color: dodgerblue;",
-        "    width: 500px;",
-        "    height: 500px;",
+        "    width: 50%;",
+        "    height: 50%;",
         "    ",
         "  }",
         "",
         "  #box-2 {",
         "    background-color: orangered;",
-        "    width: 500px;",
-        "    height: 500px;",
+        "    width: 50%;",
+        "    height: 50%;",
         "    ",
         "  }",
         "</style>",
-        "<div id=\"box-1\"></div>",
-        "<div id=\"box-2\"></div>"
+        "<div id=\"box-container\">",
+        "  <div id=\"box-1\"></div>",
+        "  <div id=\"box-2\"></div>",
+        "</div>"
       ],
       "tests": [
-        "assert($('#box-1').css('display') == 'flex', 'message: <code>#box-1</code> should have the <code>display</code> property set to a value of flex.');",
-        "assert($('#box-2').css('display') == 'flex', 'message: <code>#box-2</code> should have the <code>display</code> property set to a value of flex.');"
+        "assert($('#box-container').css('display') == 'flex', 'message: <code>#box-container</code> should have the <code>display</code> property set to a value of flex.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ab367417b2b2512af1",
@@ -107,95 +77,95 @@
         "<code>header</code>, the header's <code>.profile-name</code>, the header's <code>.follow-btn</code>, the header's <code>h3</code> and <code>h4</code>, the <code>footer</code>, and the footer's <code>.stats</code>."
       ],
       "challengeSeed": [
-          "<style>",
-          "  body {",
-          "    font-family: Arial, sans-serif;",
-          "  }",
-          "  header {",
-          "    ",
-          "  }",
-          "  header .profile-thumbnail {",
-          "    width: 50px;",
-          "    height: 50px;",
-          "    border-radius: 4px;",
-          "  }",
-          "  header .profile-name {",
-          "    ",
-          "    margin-left: 10px;",
-          "  }",
-          "  header .follow-btn {",
-          "    ",
-          "    margin: 0 0 0 auto;",
-          "  }",
-          "  header .follow-btn button {",
-          "    border: 0;",
-          "    border-radius: 3px;",
-          "    padding: 5px;",
-          "  }",
-          "  header h3, header h4 {",
-          "    ",
-          "    margin: 0;",
-          "  }",
-          "  #inner p {",
-          "    margin-bottom: 10px;",
-          "    font-size: 20px;",
-          "  }",
-          "  #inner hr {",
-          "    margin: 20px 0;",
-          "    border-style: solid;",
-          "    opacity: 0.1;",
-          "  }",
-          "  footer {",
-          "    ",
-          "  }",
-          "  footer .stats {",
-          "    ",
-          "    font-size: 15px;",
-          "  }",
-          "  footer .stats strong {",
-          "    font-size: 18px;",
-          "  }",
-          "  footer .stats .likes {",
-          "    margin-left: 10px;",
-          "  }",
-          "  footer .cta {",
-          "    margin-left: auto;",
-          "  }",
-          "  footer .cta button {",
-          "    border: 0;",
-          "    background: transparent;",
-          "  }",
-          "</style>",
-          "<header>",
-          "  <img src=\"https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png\" alt=\"Quincy Larson's profile picture\" class=\"profile-thumbnail\">",
-          "  <div class=\"profile-name\">",
-          "    <h3>Quincy Larson</h3>",
-          "    <h4>@ossia</h4>",
-          "  </div>",
-          "  <div class=\"follow-btn\">",
-          "    <button>Follow</button>",
-          "  </div>",
-          "</header>",
-          "<div id=\"inner\">",
-          "  <p>How would you describe to a layperson the relationship between Node, Express, and npm in a single tweet? An analogy would be helpful.</p>",
-          "  <span class=\"date\">7:24 PM - 17 Aug 2016</span>",
-          "  <hr>",
-          "</div>",
-          "<footer>",
-          "  <div class=\"stats\">",
-          "    <div class=\"retweets\">",
-          "      <strong>56,203</strong> RETWEETS",
-          "    </div>",
-          "    <div class=\"likes\">",
-          "      <strong>84,703</strong> LIKES",
-          "    </div>",
-          "  </div>",
-          "  <div class=\"cta\">",
-          "    <button class=\"share-btn\">Share</button>",
-          "    <button class=\"retweet-btn\">Retweet</button>",
-          "    <button class=\"like-btn\">Like</button>",
-          "  </div>",
-          "</footer>"
+        "<style>",
+        "  body {",
+        "    font-family: Arial, sans-serif;",
+        "  }",
+        "  header {",
+        "    ",
+        "  }",
+        "  header .profile-thumbnail {",
+        "    width: 50px;",
+        "    height: 50px;",
+        "    border-radius: 4px;",
+        "  }",
+        "  header .profile-name {",
+        "    ",
+        "    margin-left: 10px;",
+        "  }",
+        "  header .follow-btn {",
+        "    ",
+        "    margin: 0 0 0 auto;",
+        "  }",
+        "  header .follow-btn button {",
+        "    border: 0;",
+        "    border-radius: 3px;",
+        "    padding: 5px;",
+        "  }",
+        "  header h3, header h4 {",
+        "    ",
+        "    margin: 0;",
+        "  }",
+        "  #inner p {",
+        "    margin-bottom: 10px;",
+        "    font-size: 20px;",
+        "  }",
+        "  #inner hr {",
+        "    margin: 20px 0;",
+        "    border-style: solid;",
+        "    opacity: 0.1;",
+        "  }",
+        "  footer {",
+        "    ",
+        "  }",
+        "  footer .stats {",
+        "    ",
+        "    font-size: 15px;",
+        "  }",
+        "  footer .stats strong {",
+        "    font-size: 18px;",
+        "  }",
+        "  footer .stats .likes {",
+        "    margin-left: 10px;",
+        "  }",
+        "  footer .cta {",
+        "    margin-left: auto;",
+        "  }",
+        "  footer .cta button {",
+        "    border: 0;",
+        "    background: transparent;",
+        "  }",
+        "</style>",
+        "<header>",
+        "  <img src=\"https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png\" alt=\"Quincy Larson's profile picture\" class=\"profile-thumbnail\">",
+        "  <div class=\"profile-name\">",
+        "    <h3>Quincy Larson</h3>",
+        "    <h4>@ossia</h4>",
+        "  </div>",
+        "  <div class=\"follow-btn\">",
+        "    <button>Follow</button>",
+        "  </div>",
+        "</header>",
+        "<div id=\"inner\">",
+        "  <p>How would you describe to a layperson the relationship between Node, Express, and npm in a single tweet? An analogy would be helpful.</p>",
+        "  <span class=\"date\">7:24 PM - 17 Aug 2016</span>",
+        "  <hr>",
+        "</div>",
+        "<footer>",
+        "  <div class=\"stats\">",
+        "    <div class=\"retweets\">",
+        "      <strong>56,203</strong> RETWEETS",
+        "    </div>",
+        "    <div class=\"likes\">",
+        "      <strong>84,703</strong> LIKES",
+        "    </div>",
+        "  </div>",
+        "  <div class=\"cta\">",
+        "    <button class=\"share-btn\">Share</button>",
+        "    <button class=\"retweet-btn\">Retweet</button>",
+        "    <button class=\"like-btn\">Like</button>",
+        "  </div>",
+        "</footer>"
       ],
       "tests": [
         "assert($('header').css('display') == 'flex', 'message: Your <code>header</code> should have a <code>display</code> property set to flex.');",
@@ -209,42 +179,19 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ab367417b2b2512af2",
       "title": "Using the Flex-direction Property to Make a Row",
       "description": [
         "Adding <code>display: flex</code> to an element turns it into a flex container. This makes it possible to align any children of that element into rows or columns. You do this by adding the <code>flex-direction</code> property to the parent item and setting it to row or column. Creating a row will align the children horizontally, and creating a column will align the children vertically.",
+        "Other options for <code>flex-direction</code> are row-reverse and column-reverse.",
         "<strong>Note</strong><br>The default value for the <code>flex-direction</code> property is row.",
         "<hr>",
-        "Add the CSS property <code>flex-direction</code> to the <code>#box-container</code> element, and give it a value of row."
+        "Add the CSS property <code>flex-direction</code> to the <code>#box-container</code> element, and give it a value of row-reverse."
       ],
       "challengeSeed": [
         "<style>",
@@ -254,14 +201,14 @@
         "  }",
         "  #box-1 {",
         "    background-color: dodgerblue;",
-        "    width: 500px;",
-        "    height: 500px;",
+        "    width: 50%;",
+        "    height: 50%;",
         "  }",
         "",
         "  #box-2 {",
         "    background-color: orangered;",
-        "    width: 500px;",
-        "    height: 500px;",
+        "    width: 50%;",
+        "    height: 50%;",
         "  }",
         "</style>",
         "",
@@ -271,38 +218,14 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-container').css('flex-direction') == 'row', 'message: The <code>#box-container</code> element should have a <code>flex-direction</code> property set to row.');"
+        "assert($('#box-container').css('flex-direction') == 'row-reverse', 'message: The <code>#box-container</code> element should have a <code>flex-direction</code> property set to row-reverse.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ab367417b2b2512af3",
@@ -313,132 +236,108 @@
         "Add the CSS property <code>flex-direction</code> to both the <code>header</code> and <code>footer</code> and set the value to row."
       ],
       "challengeSeed": [
-          "<style>",
-          "  body {",
-          "    font-family: Arial, sans-serif;",
-          "  }",
-          "  header {",
-          "    display: flex;",
-          "    ",
-          "  }",
-          "  header .profile-thumbnail {",
-          "    width: 50px;",
-          "    height: 50px;",
-          "    border-radius: 4px;",
-          "  }",
-          "  header .profile-name {",
-          "    display: flex;",
-          "    margin-left: 10px;",
-          "  }",
-          "  header .follow-btn {",
-          "    display: flex;",
-          "    margin: 0 0 0 auto;",
-          "  }",
-          "  header .follow-btn button {",
-          "    border: 0;",
-          "    border-radius: 3px;",
-          "    padding: 5px;",
-          "  }",
-          "  header h3, header h4 {",
-          "    display: flex;",
-          "    margin: 0;",
-          "  }",
-          "  #inner p {",
-          "    margin-bottom: 10px;",
-          "    font-size: 20px;",
-          "  }",
-          "  #inner hr {",
-          "    margin: 20px 0;",
-          "    border-style: solid;",
-          "    opacity: 0.1;",
-          "  }",
-          "  footer {",
-          "    display: flex;",
-          "    ",
-          "  }",
-          "  footer .stats {",
-          "    display: flex;",
-          "    font-size: 15px;",
-          "  }",
-          "  footer .stats strong {",
-          "    font-size: 18px;",
-          "  }",
-          "  footer .stats .likes {",
-          "    margin-left: 10px;",
-          "  }",
-          "  footer .cta {",
-          "    margin-left: auto;",
-          "  }",
-          "  footer .cta button {",
-          "    border: 0;",
-          "    background: transparent;",
-          "  }",
-          "</style>",
-          "<header>",
-          "  <img src=\"https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png\" alt=\"Quincy Larson's profile picture\" class=\"profile-thumbnail\">",
-          "  <div class=\"profile-name\">",
-          "    <h3>Quincy Larson</h3>",
-          "    <h4>@ossia</h4>",
-          "  </div>",
-          "  <div class=\"follow-btn\">",
-          "    <button>Follow</button>",
-          "  </div>",
-          "</header>",
-          "<div id=\"inner\">",
-          "  <p>How would you describe to a layperson the relationship between Node, Express, and npm in a single tweet? An analogy would be helpful.</p>",
-          "  <span class=\"date\">7:24 PM - 17 Aug 2016</span>",
-          "  <hr>",
-          "</div>",
-          "<footer>",
-          "  <div class=\"stats\">",
-          "    <div class=\"retweets\">",
-          "      <strong>56,203</strong> RETWEETS",
-          "    </div>",
-          "    <div class=\"likes\">",
-          "      <strong>84,703</strong> LIKES",
-          "    </div>",
-          "  </div>",
-          "  <div class=\"cta\">",
-          "    <button class=\"share-btn\">Share</button>",
-          "    <button class=\"retweet-btn\">Retweet</button>",
-          "    <button class=\"like-btn\">Like</button>",
-          "  </div>",
-          "</footer>"
+        "<style>",
+        "  body {",
+        "    font-family: Arial, sans-serif;",
+        "  }",
+        "  header {",
+        "    display: flex;",
+        "    ",
+        "  }",
+        "  header .profile-thumbnail {",
+        "    width: 50px;",
+        "    height: 50px;",
+        "    border-radius: 4px;",
+        "  }",
+        "  header .profile-name {",
+        "    display: flex;",
+        "    margin-left: 10px;",
+        "  }",
+        "  header .follow-btn {",
+        "    display: flex;",
+        "    margin: 0 0 0 auto;",
+        "  }",
+        "  header .follow-btn button {",
+        "    border: 0;",
+        "    border-radius: 3px;",
+        "    padding: 5px;",
+        "  }",
+        "  header h3, header h4 {",
+        "    display: flex;",
+        "    margin: 0;",
+        "  }",
+        "  #inner p {",
+        "    margin-bottom: 10px;",
+        "    font-size: 20px;",
+        "  }",
+        "  #inner hr {",
+        "    margin: 20px 0;",
+        "    border-style: solid;",
+        "    opacity: 0.1;",
+        "  }",
+        "  footer {",
+        "    display: flex;",
+        "    ",
+        "  }",
+        "  footer .stats {",
+        "    display: flex;",
+        "    font-size: 15px;",
+        "  }",
+        "  footer .stats strong {",
+        "    font-size: 18px;",
+        "  }",
+        "  footer .stats .likes {",
+        "    margin-left: 10px;",
+        "  }",
+        "  footer .cta {",
+        "    margin-left: auto;",
+        "  }",
+        "  footer .cta button {",
+        "    border: 0;",
+        "    background: transparent;",
+        "  }",
+        "</style>",
+        "<header>",
+        "  <img src=\"https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png\" alt=\"Quincy Larson's profile picture\" class=\"profile-thumbnail\">",
+        "  <div class=\"profile-name\">",
+        "    <h3>Quincy Larson</h3>",
+        "    <h4>@ossia</h4>",
+        "  </div>",
+        "  <div class=\"follow-btn\">",
+        "    <button>Follow</button>",
+        "  </div>",
+        "</header>",
+        "<div id=\"inner\">",
+        "  <p>How would you describe to a layperson the relationship between Node, Express, and npm in a single tweet? An analogy would be helpful.</p>",
+        "  <span class=\"date\">7:24 PM - 17 Aug 2016</span>",
+        "  <hr>",
+        "</div>",
+        "<footer>",
+        "  <div class=\"stats\">",
+        "    <div class=\"retweets\">",
+        "      <strong>56,203</strong> RETWEETS",
+        "    </div>",
+        "    <div class=\"likes\">",
+        "      <strong>84,703</strong> LIKES",
+        "    </div>",
+        "  </div>",
+        "  <div class=\"cta\">",
+        "    <button class=\"share-btn\">Share</button>",
+        "    <button class=\"retweet-btn\">Retweet</button>",
+        "    <button class=\"like-btn\">Like</button>",
+        "  </div>",
+        "</footer>"
       ],
       "tests": [
-        "assert($('header').css('flex-direction') == 'row', 'message: The <code>header</code> should have a <code>flex-direction</code> property set to row.');",
-        "assert($('footer').css('flex-direction') == 'row', 'message: The <code>footer</code> should have a <code>flex-direction</code> property set to row.');"
+        "assert(code.match(/header\\s*?{\\s*?.*?\\s*?.*?\\s*?flex-direction:\\s*?row;/g), 'message: The <code>header</code> should have a <code>flex-direction</code> property set to row.');",
+        "assert(code.match(/footer\\s*?{\\s*?.*?\\s*?.*?\\s*?flex-direction:\\s*?row;/g), 'message: The <code>footer</code> should have a <code>flex-direction</code> property set to row.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ac367417b2b2512af4",
@@ -456,14 +355,14 @@
         "  }",
         "  #box-1 {",
         "    background-color: dodgerblue;",
-        "    width: 500px;",
-        "    height: 500px;",
+        "    width: 50%;",
+        "    height: 50%;",
         "  }",
         "",
         "  #box-2 {",
         "    background-color: orangered;",
-        "    width: 500px;",
-        "    height: 500px;",
+        "    width: 50%;",
+        "    height: 50%;",
         "  }",
         "</style>",
         "",
@@ -473,38 +372,14 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-container').css('flex-direction') == 'column', 'message: The <code>#box-container</code> element should have a <code>flex-direction</code> property set to column.');"
+        "assert($('#box-container').css('flex-direction') == 'column', 'message: The <code>#box-container</code> element should have a <code>flex-direction</code> property set to column.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ac367417b2b2512af5",
@@ -515,94 +390,94 @@
         "Add the CSS property <code>flex-direction</code> to the header's <code>.profile-name</code> element and set the value to column."
       ],
       "challengeSeed": [
-          "<style>",
-          "  body {",
-          "    font-family: Arial, sans-serif;",
-          "  }",
-          "  header, footer {",
-          "    display: flex;",
-          "    flex-direction: row;",
-          "  }",
-          "  header .profile-thumbnail {",
-          "    width: 50px;",
-          "    height: 50px;",
-          "    border-radius: 4px;",
-          "  }",
-          "  header .profile-name {",
-          "    display: flex;",
-          "    ",
-          "    margin-left: 10px;",
-          "  }",
-          "  header .follow-btn {",
-          "    display: flex;",
-          "    margin: 0 0 0 auto;",
-          "  }",
-          "  header .follow-btn button {",
-          "    border: 0;",
-          "    border-radius: 3px;",
-          "    padding: 5px;",
-          "  }",
-          "  header h3, header h4 {",
-          "    display: flex;",
-          "    margin: 0;",
-          "  }",
-          "  #inner p {",
-          "    margin-bottom: 10px;",
-          "    font-size: 20px;",
-          "  }",
-          "  #inner hr {",
-          "    margin: 20px 0;",
-          "    border-style: solid;",
-          "    opacity: 0.1;",
-          "  }",
-          "  footer .stats {",
-          "    display: flex;",
-          "    font-size: 15px;",
-          "  }",
-          "  footer .stats strong {",
-          "    font-size: 18px;",
-          "  }",
-          "  footer .stats .likes {",
-          "    margin-left: 10px;",
-          "  }",
-          "  footer .cta {",
-          "    margin-left: auto;",
-          "  }",
-          "  footer .cta button {",
-          "    border: 0;",
-          "    background: transparent;",
-          "  }",
-          "</style>",
-          "<header>",
-          "  <img src=\"https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png\" alt=\"Quincy Larson's profile picture\" class=\"profile-thumbnail\">",
-          "  <div class=\"profile-name\">",
-          "    <h3>Quincy Larson</h3>",
-          "    <h4>@ossia</h4>",
-          "  </div>",
-          "  <div class=\"follow-btn\">",
-          "    <button>Follow</button>",
-          "  </div>",
-          "</header>",
-          "<div id=\"inner\">",
-          "  <p>How would you describe to a layperson the relationship between Node, Express, and npm in a single tweet? An analogy would be helpful.</p>",
-          "  <span class=\"date\">7:24 PM - 17 Aug 2016</span>",
-          "  <hr>",
-          "</div>",
-          "<footer>",
-          "  <div class=\"stats\">",
-          "    <div class=\"retweets\">",
-          "      <strong>56,203</strong> RETWEETS",
-          "    </div>",
-          "    <div class=\"likes\">",
-          "      <strong>84,703</strong> LIKES",
-          "    </div>",
-          "  </div>",
-          "  <div class=\"cta\">",
-          "    <button class=\"share-btn\">Share</button>",
-          "    <button class=\"retweet-btn\">Retweet</button>",
-          "    <button class=\"like-btn\">Like</button>",
-          "  </div>",
-          "</footer>"
+        "<style>",
+        "  body {",
+        "    font-family: Arial, sans-serif;",
+        "  }",
+        "  header, footer {",
+        "    display: flex;",
+        "    flex-direction: row;",
+        "  }",
+        "  header .profile-thumbnail {",
+        "    width: 50px;",
+        "    height: 50px;",
+        "    border-radius: 4px;",
+        "  }",
+        "  header .profile-name {",
+        "    display: flex;",
+        "    ",
+        "    margin-left: 10px;",
+        "  }",
+        "  header .follow-btn {",
+        "    display: flex;",
+        "    margin: 0 0 0 auto;",
+        "  }",
+        "  header .follow-btn button {",
+        "    border: 0;",
+        "    border-radius: 3px;",
+        "    padding: 5px;",
+        "  }",
+        "  header h3, header h4 {",
+        "    display: flex;",
+        "    margin: 0;",
+        "  }",
+        "  #inner p {",
+        "    margin-bottom: 10px;",
+        "    font-size: 20px;",
+        "  }",
+        "  #inner hr {",
+        "    margin: 20px 0;",
+        "    border-style: solid;",
+        "    opacity: 0.1;",
+        "  }",
+        "  footer .stats {",
+        "    display: flex;",
+        "    font-size: 15px;",
+        "  }",
+        "  footer .stats strong {",
+        "    font-size: 18px;",
+        "  }",
+        "  footer .stats .likes {",
+        "    margin-left: 10px;",
+        "  }",
+        "  footer .cta {",
+        "    margin-left: auto;",
+        "  }",
+        "  footer .cta button {",
+        "    border: 0;",
+        "    background: transparent;",
+        "  }",
+        "</style>",
+        "<header>",
+        "  <img src=\"https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png\" alt=\"Quincy Larson's profile picture\" class=\"profile-thumbnail\">",
+        "  <div class=\"profile-name\">",
+        "    <h3>Quincy Larson</h3>",
+        "    <h4>@ossia</h4>",
+        "  </div>",
+        "  <div class=\"follow-btn\">",
+        "    <button>Follow</button>",
+        "  </div>",
+        "</header>",
+        "<div id=\"inner\">",
+        "  <p>How would you describe to a layperson the relationship between Node, Express, and npm in a single tweet? An analogy would be helpful.</p>",
+        "  <span class=\"date\">7:24 PM - 17 Aug 2016</span>",
+        "  <hr>",
+        "</div>",
+        "<footer>",
+        "  <div class=\"stats\">",
+        "    <div class=\"retweets\">",
+        "      <strong>56,203</strong> RETWEETS",
+        "    </div>",
+        "    <div class=\"likes\">",
+        "      <strong>84,703</strong> LIKES",
+        "    </div>",
+        "  </div>",
+        "  <div class=\"cta\">",
+        "    <button class=\"share-btn\">Share</button>",
+        "    <button class=\"retweet-btn\">Retweet</button>",
+        "    <button class=\"like-btn\">Like</button>",
+        "  </div>",
+        "</footer>"
       ],
       "tests": [
         "assert($('.profile-name').css('flex-direction') == 'column', 'message: The <code>.profile-name</code> element should have a <code>flex-direction</code> property set to column.');"
@@ -610,33 +485,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ac367417b2b2512af6",
@@ -666,14 +517,14 @@
         "  }",
         "  #box-1 {",
         "    background-color: dodgerblue;",
-        "    width: 100px;",
-        "    height: 200px;",
+        "    width: 25%;",
+        "    height: 100%;",
         "  }",
         "",
         "  #box-2 {",
         "    background-color: orangered;",
-        "    width: 100px;",
-        "    height: 200px;",
+        "    width: 25%;",
+        "    height: 100%;",
         "  }",
         "</style>",
         "",
@@ -683,38 +534,14 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-container').css('justify-content') == 'center', 'message: The <code>#box-container</code> element should have a <code>justify-content</code> property set to a value of center.');"
+        "assert($('#box-container').css('justify-content') == 'center', 'message: The <code>#box-container</code> element should have a <code>justify-content</code> property set to a value of center.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ac367417b2b2512af7",
@@ -725,129 +552,105 @@
         "Add the CSS property <code>justify-content</code> to the header's <code>.profile-name</code> element and set the value to any of the options from the last challenge."
       ],
       "challengeSeed": [
-          "<style>",
-          "  body {",
-          "    font-family: Arial, sans-serif;",
-          "  }",
-          "  header, footer {",
-          "    display: flex;",
-          "    flex-direction: row;",
-          "  }",
-          "  header .profile-thumbnail {",
-          "    width: 50px;",
-          "    height: 50px;",
-          "    border-radius: 4px;",
-          "  }",
-          "  header .profile-name {",
-          "    display: flex;",
-          "    flex-direction: column;",
-          "    ",
-          "    margin-left: 10px;",
-          "  }",
-          "  header .follow-btn {",
-          "    display: flex;",
-          "    margin: 0 0 0 auto;",
-          "  }",
-          "  header .follow-btn button {",
-          "    border: 0;",
-          "    border-radius: 3px;",
-          "    padding: 5px;",
-          "  }",
-          "  header h3, header h4 {",
-          "    display: flex;",
-          "    margin: 0;",
-          "  }",
-          "  #inner p {",
-          "    margin-bottom: 10px;",
-          "    font-size: 20px;",
-          "  }",
-          "  #inner hr {",
-          "    margin: 20px 0;",
-          "    border-style: solid;",
-          "    opacity: 0.1;",
-          "  }",
-          "  footer .stats {",
-          "    display: flex;",
-          "    font-size: 15px;",
-          "  }",
-          "  footer .stats strong {",
-          "    font-size: 18px;",
-          "  }",
-          "  footer .stats .likes {",
-          "    margin-left: 10px;",
-          "  }",
-          "  footer .cta {",
-          "    margin-left: auto;",
-          "  }",
-          "  footer .cta button {",
-          "    border: 0;",
-          "    background: transparent;",
-          "  }",
-          "</style>",
-          "<header>",
-          "  <img src=\"https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png\" alt=\"Quincy Larson's profile picture\" class=\"profile-thumbnail\">",
-          "  <div class=\"profile-name\">",
-          "    <h3>Quincy Larson</h3>",
-          "    <h4>@ossia</h4>",
-          "  </div>",
-          "  <div class=\"follow-btn\">",
-          "    <button>Follow</button>",
-          "  </div>",
-          "</header>",
-          "<div id=\"inner\">",
-          "  <p>How would you describe to a layperson the relationship between Node, Express, and npm in a single tweet? An analogy would be helpful.</p>",
-          "  <span class=\"date\">7:24 PM - 17 Aug 2016</span>",
-          "  <hr>",
-          "</div>",
-          "<footer>",
-          "  <div class=\"stats\">",
-          "    <div class=\"retweets\">",
-          "      <strong>56,203</strong> RETWEETS",
-          "    </div>",
-          "    <div class=\"likes\">",
-          "      <strong>84,703</strong> LIKES",
-          "    </div>",
-          "  </div>",
-          "  <div class=\"cta\">",
-          "    <button class=\"share-btn\">Share</button>",
-          "    <button class=\"retweet-btn\">Retweet</button>",
-          "    <button class=\"like-btn\">Like</button>",
-          "  </div>",
-          "</footer>"
+        "<style>",
+        "  body {",
+        "    font-family: Arial, sans-serif;",
+        "  }",
+        "  header, footer {",
+        "    display: flex;",
+        "    flex-direction: row;",
+        "  }",
+        "  header .profile-thumbnail {",
+        "    width: 50px;",
+        "    height: 50px;",
+        "    border-radius: 4px;",
+        "  }",
+        "  header .profile-name {",
+        "    display: flex;",
+        "    flex-direction: column;",
+        "    ",
+        "    margin-left: 10px;",
+        "  }",
+        "  header .follow-btn {",
+        "    display: flex;",
+        "    margin: 0 0 0 auto;",
+        "  }",
+        "  header .follow-btn button {",
+        "    border: 0;",
+        "    border-radius: 3px;",
+        "    padding: 5px;",
+        "  }",
+        "  header h3, header h4 {",
+        "    display: flex;",
+        "    margin: 0;",
+        "  }",
+        "  #inner p {",
+        "    margin-bottom: 10px;",
+        "    font-size: 20px;",
+        "  }",
+        "  #inner hr {",
+        "    margin: 20px 0;",
+        "    border-style: solid;",
+        "    opacity: 0.1;",
+        "  }",
+        "  footer .stats {",
+        "    display: flex;",
+        "    font-size: 15px;",
+        "  }",
+        "  footer .stats strong {",
+        "    font-size: 18px;",
+        "  }",
+        "  footer .stats .likes {",
+        "    margin-left: 10px;",
+        "  }",
+        "  footer .cta {",
+        "    margin-left: auto;",
+        "  }",
+        "  footer .cta button {",
+        "    border: 0;",
+        "    background: transparent;",
+        "  }",
+        "</style>",
+        "<header>",
+        "  <img src=\"https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png\" alt=\"Quincy Larson's profile picture\" class=\"profile-thumbnail\">",
+        "  <div class=\"profile-name\">",
+        "    <h3>Quincy Larson</h3>",
+        "    <h4>@ossia</h4>",
+        "  </div>",
+        "  <div class=\"follow-btn\">",
+        "    <button>Follow</button>",
+        "  </div>",
+        "</header>",
+        "<div id=\"inner\">",
+        "  <p>How would you describe to a layperson the relationship between Node, Express, and npm in a single tweet? An analogy would be helpful.</p>",
+        "  <span class=\"date\">7:24 PM - 17 Aug 2016</span>",
+        "  <hr>",
+        "</div>",
+        "<footer>",
+        "  <div class=\"stats\">",
+        "    <div class=\"retweets\">",
+        "      <strong>56,203</strong> RETWEETS",
+        "    </div>",
+        "    <div class=\"likes\">",
+        "      <strong>84,703</strong> LIKES",
+        "    </div>",
+        "  </div>",
+        "  <div class=\"cta\">",
+        "    <button class=\"share-btn\">Share</button>",
+        "    <button class=\"retweet-btn\">Retweet</button>",
+        "    <button class=\"like-btn\">Like</button>",
+        "  </div>",
+        "</footer>"
       ],
       "tests": [
-        "assert($('.profile-name').css('justify-content') == 'center' || $('.profile-name').css('justify-content') == 'flex-start' || $('.profile-name').css('justify-content') == 'flex-end' || $('.profile-name').css('justify-content') == 'space-between' || $('.profile-name').css('justify-content') == 'space-around', 'message: The <code>.profile-name</code> element should have the <code>justify-content</code> property set to any of these values: center, flex-start, flex-end, space-between, or space-around.');"
+        "assert(code.match(/header\\s.profile-name\\s*{\\s*?.*?\\s*?.*?\\s*?\\s*?.*?\\s*?justify-content\\s*:\\s*(center|flex-start|flex-end|space-between|space-around)\\s*;/g), 'message: The <code>.profile-name</code> element should have the <code>justify-content</code> property set to any of these values: center, flex-start, flex-end, space-between, or space-around.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ad367417b2b2512af8",
@@ -895,38 +698,14 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-container').css('align-items') == 'center', 'message: The <code>#box-container</code> element should have an <code>align-items</code> property set to a value of center.');"
+        "assert($('#box-container').css('align-items') == 'center', 'message: The <code>#box-container</code> element should have an <code>align-items</code> property set to a value of center.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ad367417b2b2512af9",
@@ -937,97 +716,97 @@
         "Add the CSS property <code>align-items</code> to the header's <code>.follow-btn</code> element, the header's <code>h3</code>, and the header's <code>h4</code>. Set the value to center."
       ],
       "challengeSeed": [
-          "<style>",
-          "  body {",
-          "    font-family: Arial, sans-serif;",
-          "  }",
-          "  header, footer {",
-          "    display: flex;",
-          "    flex-direction: row;",
-          "  }",
-          "  header .profile-thumbnail {",
-          "    width: 50px;",
-          "    height: 50px;",
-          "    border-radius: 4px;",
-          "  }",
-          "  header .profile-name {",
-          "    display: flex;",
-          "    flex-direction: column;",
-          "    justify-content: center;",
-          "    margin-left: 10px;",
-          "  }",
-          "  header .follow-btn {",
-          "    display: flex;",
-          "    ",
-          "    margin: 0 0 0 auto;",
-          "  }",
-          "  header .follow-btn button {",
-          "    border: 0;",
-          "    border-radius: 3px;",
-          "    padding: 5px;",
-          "  }",
-          "  header h3, header h4 {",
-          "    display: flex;",
-          "    ",
-          "    margin: 0;",
-          "  }",
-          "  #inner p {",
-          "    margin-bottom: 10px;",
-          "    font-size: 20px;",
-          "  }",
-          "  #inner hr {",
-          "    margin: 20px 0;",
-          "    border-style: solid;",
-          "    opacity: 0.1;",
-          "  }",
-          "  footer .stats {",
-          "    display: flex;",
-          "    font-size: 15px;",
-          "  }",
-          "  footer .stats strong {",
-          "    font-size: 18px;",
-          "  }",
-          "  footer .stats .likes {",
-          "    margin-left: 10px;",
-          "  }",
-          "  footer .cta {",
-          "    margin-left: auto;",
-          "  }",
-          "  footer .cta button {",
-          "    border: 0;",
-          "    background: transparent;",
-          "  }",
-          "</style>",
-          "<header>",
-          "  <img src=\"https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png\" alt=\"Quincy Larson's profile picture\" class=\"profile-thumbnail\">",
-          "  <div class=\"profile-name\">",
-          "    <h3>Quincy Larson</h3>",
-          "    <h4>@ossia</h4>",
-          "  </div>",
-          "  <div class=\"follow-btn\">",
-          "    <button>Follow</button>",
-          "  </div>",
-          "</header>",
-          "<div id=\"inner\">",
-          "  <p>How would you describe to a layperson the relationship between Node, Express, and npm in a single tweet? An analogy would be helpful.</p>",
-          "  <span class=\"date\">7:24 PM - 17 Aug 2016</span>",
-          "  <hr>",
-          "</div>",
-          "<footer>",
-          "  <div class=\"stats\">",
-          "    <div class=\"retweets\">",
-          "      <strong>56,203</strong> RETWEETS",
-          "    </div>",
-          "    <div class=\"likes\">",
-          "      <strong>84,703</strong> LIKES",
-          "    </div>",
-          "  </div>",
-          "  <div class=\"cta\">",
-          "    <button class=\"share-btn\">Share</button>",
-          "    <button class=\"retweet-btn\">Retweet</button>",
-          "    <button class=\"like-btn\">Like</button>",
-          "  </div>",
-          "</footer>"
+        "<style>",
+        "  body {",
+        "    font-family: Arial, sans-serif;",
+        "  }",
+        "  header, footer {",
+        "    display: flex;",
+        "    flex-direction: row;",
+        "  }",
+        "  header .profile-thumbnail {",
+        "    width: 50px;",
+        "    height: 50px;",
+        "    border-radius: 4px;",
+        "  }",
+        "  header .profile-name {",
+        "    display: flex;",
+        "    flex-direction: column;",
+        "    justify-content: center;",
+        "    margin-left: 10px;",
+        "  }",
+        "  header .follow-btn {",
+        "    display: flex;",
+        "    ",
+        "    margin: 0 0 0 auto;",
+        "  }",
+        "  header .follow-btn button {",
+        "    border: 0;",
+        "    border-radius: 3px;",
+        "    padding: 5px;",
+        "  }",
+        "  header h3, header h4 {",
+        "    display: flex;",
+        "    ",
+        "    margin: 0;",
+        "  }",
+        "  #inner p {",
+        "    margin-bottom: 10px;",
+        "    font-size: 20px;",
+        "  }",
+        "  #inner hr {",
+        "    margin: 20px 0;",
+        "    border-style: solid;",
+        "    opacity: 0.1;",
+        "  }",
+        "  footer .stats {",
+        "    display: flex;",
+        "    font-size: 15px;",
+        "  }",
+        "  footer .stats strong {",
+        "    font-size: 18px;",
+        "  }",
+        "  footer .stats .likes {",
+        "    margin-left: 10px;",
+        "  }",
+        "  footer .cta {",
+        "    margin-left: auto;",
+        "  }",
+        "  footer .cta button {",
+        "    border: 0;",
+        "    background: transparent;",
+        "  }",
+        "</style>",
+        "<header>",
+        "  <img src=\"https://pbs.twimg.com/profile_images/378800000147359764/54dc9a5c34e912f34db8662d53d16a39_400x400.png\" alt=\"Quincy Larson's profile picture\" class=\"profile-thumbnail\">",
+        "  <div class=\"profile-name\">",
+        "    <h3>Quincy Larson</h3>",
+        "    <h4>@ossia</h4>",
+        "  </div>",
+        "  <div class=\"follow-btn\">",
+        "    <button>Follow</button>",
+        "  </div>",
+        "</header>",
+        "<div id=\"inner\">",
+        "  <p>How would you describe to a layperson the relationship between Node, Express, and npm in a single tweet? An analogy would be helpful.</p>",
+        "  <span class=\"date\">7:24 PM - 17 Aug 2016</span>",
+        "  <hr>",
+        "</div>",
+        "<footer>",
+        "  <div class=\"stats\">",
+        "    <div class=\"retweets\">",
+        "      <strong>56,203</strong> RETWEETS",
+        "    </div>",
+        "    <div class=\"likes\">",
+        "      <strong>84,703</strong> LIKES",
+        "    </div>",
+        "  </div>",
+        "  <div class=\"cta\">",
+        "    <button class=\"share-btn\">Share</button>",
+        "    <button class=\"retweet-btn\">Retweet</button>",
+        "    <button class=\"like-btn\">Like</button>",
+        "  </div>",
+        "</footer>"
       ],
       "tests": [
         "assert($('.follow-btn').css('align-items') == 'center', 'message: The <code>.follow-btn</code> element should have the <code>align-items</code> property set to a value of center.');",
@@ -1037,33 +816,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ad367417b2b2512afa",
@@ -1085,39 +840,39 @@
         "  #box-container {",
         "    background: gray;",
         "    display: flex;",
-        "    ",
-        "    height: 500px;",
+        "    height: 100%;",
+        "      ",
         "  }",
         "  #box-1 {",
         "    background-color: dodgerblue;",
-        "    width: 200px;",
-        "    height: 200px;",
+        "    width: 25%;",
+        "    height: 50%;",
         "  }",
         "",
         "  #box-2 {",
         "    background-color: orangered;",
-        "    width: 200px;",
-        "    height: 200px;",
+        "    width: 25%;",
+        "    height: 50%;",
         "  }",
         "  #box-3 {",
         "    background-color: violet;",
-        "    width: 200px;",
-        "    height: 200px;",
+        "    width: 25%;",
+        "    height: 50%;",
         "  }",
         "  #box-4 {",
         "    background-color: yellow;",
-        "    width: 200px;",
-        "    height: 200px;",
+        "    width: 25%;",
+        "    height: 50%;",
         "  }",
         "  #box-5 {",
         "    background-color: green;",
-        "    width: 200px;",
-        "    height: 200px;",
+        "    width: 25%;",
+        "    height: 50%;",
         "  }",
         "  #box-6 {",
         "    background-color: black;",
-        "    width: 200px;",
-        "    height: 200px;",
+        "    width: 25%;",
+        "    height: 50%;",
         "  }",
         "</style>",
         "",
@@ -1131,38 +886,14 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-container').css('flex-wrap') == 'wrap', 'message: The <code>#box-container</code> element should have the <code>flex-wrap</code> property set to a value of wrap.');"
+        "assert($('#box-container').css('flex-wrap') == 'wrap', 'message: The <code>#box-container</code> element should have the <code>flex-wrap</code> property set to a value of wrap.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ad367417b2b2512afb",
@@ -1201,39 +932,15 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-1').css('flex-shrink') == '1', 'message: The <code>#box-1</code> element should have the <code>flex-shrink</code> property set to a value of 1.');",
-          "assert($('#box-2').css('flex-shrink') == '2', 'message: The <code>#box-2</code> element should have the <code>flex-shrink</code> property set to a value of 2.');"
+        "assert($('#box-1').css('flex-shrink') == '1', 'message: The <code>#box-1</code> element should have the <code>flex-shrink</code> property set to a value of 1.');",
+        "assert($('#box-2').css('flex-shrink') == '2', 'message: The <code>#box-2</code> element should have the <code>flex-shrink</code> property set to a value of 2.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ae367417b2b2512afc",
@@ -1271,39 +978,15 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-1').css('flex-grow') == '1', 'message: The <code>#box-1</code> element should have the <code>flex-grow</code> property set to a value of 1.');",
-          "assert($('#box-2').css('flex-grow') == '2', 'message: The <code>#box-2</code> element should have the <code>flex-grow</code> property set to a value of 2.');"
+        "assert($('#box-1').css('flex-grow') == '1', 'message: The <code>#box-1</code> element should have the <code>flex-grow</code> property set to a value of 1.');",
+        "assert($('#box-2').css('flex-grow') == '2', 'message: The <code>#box-2</code> element should have the <code>flex-grow</code> property set to a value of 2.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ae367417b2b2512afd",
@@ -1339,41 +1022,17 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-1').css('flex-basis') != 'auto', 'message: The <code>#box-1</code> element should have a <code>flex-basis</code> property.');",
-          "assert(code.match(/#box-1\\s*?{\\s*?.*?\\s*?.*?\\s*?flex-basis:\\s*?10em;/g), 'message: The <code>#box-1</code> element should have a <code>flex-basis</code> value of 10em.');",
-          "assert($('#box-2').css('flex-basis') != 'auto', 'message: The <code>#box-2</code> element should have the <code>flex-basis</code> property.');",
-          "assert(code.match(/#box-2\\s*?{\\s*?.*?\\s*?.*?\\s*?flex-basis:\\s*?20em;/g), 'message: The <code>#box-2</code> element should have a <code>flex-basis</code> value of 20em.');"
+        "assert($('#box-1').css('flex-basis') != 'auto', 'message: The <code>#box-1</code> element should have a <code>flex-basis</code> property.');",
+        "assert(code.match(/#box-1\\s*?{\\s*?.*?\\s*?.*?\\s*?flex-basis:\\s*?10em;/g), 'message: The <code>#box-1</code> element should have a <code>flex-basis</code> value of 10em.');",
+        "assert($('#box-2').css('flex-basis') != 'auto', 'message: The <code>#box-2</code> element should have the <code>flex-basis</code> property.');",
+        "assert(code.match(/#box-2\\s*?{\\s*?.*?\\s*?.*?\\s*?flex-basis:\\s*?20em;/g), 'message: The <code>#box-2</code> element should have a <code>flex-basis</code> value of 20em.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ae367417b2b2512afe",
@@ -1411,40 +1070,16 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-1').css('flex-grow') == '2' && $('#box-1').css('flex-shrink') == '2' && $('#box-1').css('flex-basis') == '150px', 'message: The <code>#box-1</code> element should have the <code>flex</code> property set to a value of 2 2 150px.');",
-          "assert($('#box-2').css('flex-grow') == '1' && $('#box-2').css('flex-shrink') == '1' && $('#box-2').css('flex-basis') == '150px', 'message: The <code>#box-2</code> element should have the <code>flex</code> property set to a value of 1 1 150px.');",
-          "assert(code.match(/flex:\\s*?\\d\\s+?\\d\\s+?150px;/g).length == 2, 'message: Your code should use the <code>flex</code> property for <code>#box-1</code> and <code>#box-2</code>.');"
+        "assert($('#box-1').css('flex-grow') == '2' && $('#box-1').css('flex-shrink') == '2' && $('#box-1').css('flex-basis') == '150px', 'message: The <code>#box-1</code> element should have the <code>flex</code> property set to a value of 2 2 150px.');",
+        "assert($('#box-2').css('flex-grow') == '1' && $('#box-2').css('flex-shrink') == '1' && $('#box-2').css('flex-basis') == '150px', 'message: The <code>#box-2</code> element should have the <code>flex</code> property set to a value of 1 1 150px.');",
+        "assert(code.match(/flex:\\s*?\\d\\s+?\\d\\s+?150px;/g).length == 2, 'message: Your code should use the <code>flex</code> property for <code>#box-1</code> and <code>#box-2</code>.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78ae367417b2b2512aff",
@@ -1481,39 +1116,15 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-1').css('order') == '2', 'message: The <code>#box-1</code> element should have the <code>order</code> property set to a value of 2.');",
-          "assert($('#box-2').css('order') == '1', 'message: The <code>#box-2</code> element should have the <code>order</code> property set to a value of 1.');"
+        "assert($('#box-1').css('order') == '2', 'message: The <code>#box-1</code> element should have the <code>order</code> property set to a value of 2.');",
+        "assert($('#box-2').css('order') == '1', 'message: The <code>#box-2</code> element should have the <code>order</code> property set to a value of 1.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78af367417b2b2512b00",
@@ -1551,39 +1162,15 @@
         "</div>"
       ],
       "tests": [
-          "assert($('#box-1').css('align-self') == 'center', 'message: The <code>#box-1</code> element should have the <code>align-self</code> property set to a value of center.');",
-          "assert($('#box-2').css('align-self') == 'flex-end', 'message: The <code>#box-2</code> element should have the <code>align-self</code> property set to a value of flex-end.');"
+        "assert($('#box-1').css('align-self') == 'center', 'message: The <code>#box-1</code> element should have the <code>align-self</code> property set to a value of center.');",
+        "assert($('#box-2').css('align-self') == 'flex-end', 'message: The <code>#box-2</code> element should have the <code>align-self</code> property set to a value of flex-end.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        },
-        "es": {
-          "description": [],
-          "title": ""
-        },
-        "cn": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     }
   ]
 }

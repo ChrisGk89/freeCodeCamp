@@ -194,9 +194,9 @@
       "description": [
         "Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.",
         "Here's a <a href='http://codepen.io/freeCodeCamp/full/zNqgVx' target='_blank'>working example</a>. Try not to look at its code.",
-        "You can build your project by forking <a href='http://codepen.io/FCC_test_suites/pen/JbgXab' target='_blank'>this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: <code>https://gitcdn.link/repo/no-stack-dub-sack/testable-projects-fcc/master/build/bundle.js</code>",
-        "Once you're done, submit below the URL to your working project with all its tests passing.",
-        "Remember to use the <a href='https://forum.freecodecamp.com/t/how-to-get-help-when-you-are-stuck/19514' target='_blank'>Read-Search-Ask</a> method if you get stuck."
+        "You can build your project by forking <a href='http://codepen.io/freeCodeCamp/pen/MJjpwO' target='_blank'>this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: <code>https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js</code>.",
+        "Once you're done, submit the URL to your working project with all its tests passing.",
+        "Remember to use the <a href='https://forum.freeCodeCamp.com/t/how-to-get-help-when-you-are-stuck/19514' target='_blank'>Read-Search-Ask</a> method if you get stuck."
       ],
       "releasedOn": "January 1, 2016",
       "challengeSeed": [
@@ -227,9 +227,9 @@
       "description": [
         "Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.",
         "Here's a <a href='http://codepen.io/freeCodeCamp/full/VPaoNP' target='_blank'>working example</a>. Try not to look at its code.",
-        "You can build your project by forking <a href='http://codepen.io/FCC_test_suites/pen/JbgXab' target='_blank'>this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: <code>https://gitcdn.link/repo/no-stack-dub-sack/testable-projects-fcc/master/build/bundle.js</code>",
-        "Once you're done, submit below the URL to your working project with all its tests passing.",
-        "Remember to use the <a href='https://forum.freecodecamp.com/t/how-to-get-help-when-you-are-stuck/19514' target='_blank'>Read-Search-Ask</a> method if you get stuck."
+        "You can build your project by forking <a href='http://codepen.io/freeCodeCamp/pen/MJjpwO' target='_blank'>this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: <code>https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js</code>",
+        "Once you're done, submit the URL to your working project with all its tests passing.",
+        "Remember to use the <a href='https://forum.freeCodeCamp.com/t/how-to-get-help-when-you-are-stuck/19514' target='_blank'>Read-Search-Ask</a> method if you get stuck."
       ],
       "releasedOn": "January 15, 2017",
       "challengeSeed": [
@@ -239,16 +239,7 @@
       "type": "zipline",
       "isRequired": true,
       "challengeType": 3,
-      "translations": {
-        "es": {
-          "title": "",
-          "description": []
-        },
-        "ru": {
-          "title": "",
-          "description": []
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78af367417b2b2512b04",
@@ -256,9 +247,9 @@
       "description": [
         "Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.",
         "Here's a <a href='http://codepen.io/freeCodeCamp/pen/RKRbwL' target='_blank'>working example</a>. Try not to look at its code.",
-        "You can build your project by forking <a href='http://codepen.io/FCC_test_suites/pen/JbgXab' target='_blank'>this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: <code>https://gitcdn.link/repo/no-stack-dub-sack/testable-projects-fcc/master/build/bundle.js</code>",
-        "Once you're done, submit below the URL to your working project with all its tests passing.",
-        "Remember to use the <a href='https://forum.freecodecamp.com/t/how-to-get-help-when-you-are-stuck/19514' target='_blank'>Read-Search-Ask</a> method if you get stuck."
+        "You can build your project by forking <a href='http://codepen.io/freeCodeCamp/full/MJjpwO' target='_blank'>this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: <code>https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js</code>",
+        "Once you're done, submit the URL to your working project with all its tests passing.",
+        "Remember to use the <a href='https://forum.freeCodeCamp.com/t/how-to-get-help-when-you-are-stuck/19514' target='_blank'>Read-Search-Ask</a> method if you get stuck."
       ],
       "releasedOn": "January 15, 2017",
       "challengeSeed": [
@@ -268,16 +259,7 @@
       "type": "zipline",
       "isRequired": true,
       "challengeType": 3,
-      "translations": {
-        "es": {
-          "title": "",
-          "description": []
-        },
-        "ru": {
-          "title": "",
-          "description": []
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78b0367417b2b2512b05",
@@ -285,9 +267,9 @@
       "description": [
         "Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.",
         "Here's a <a href='http://codepen.io/freeCodeCamp/full/NdrKKL' target='_blank'>working example</a>. Try not to look at its code.",
-        "You can build your project by forking <a href='http://codepen.io/FCC_test_suites/pen/JbgXab' target='_blank'>this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: <code>https://gitcdn.link/repo/no-stack-dub-sack/testable-projects-fcc/master/build/bundle.js</code>",
-        "Once you're done, submit below the URL to your working project with all its tests passing.",
-        "Remember to use the <a href='https://forum.freecodecamp.com/t/how-to-get-help-when-you-are-stuck/19514' target='_blank'>Read-Search-Ask</a> method if you get stuck."
+        "You can build your project by forking <a href='http://codepen.io/freeCodeCamp/pen/MJjpwO' target='_blank'>this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: <code>https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js</code>",
+        "Once you're done, submit the URL to your working project with all its tests passing.",
+        "Remember to use the <a href='https://forum.freeCodeCamp.com/t/how-to-get-help-when-you-are-stuck/19514' target='_blank'>Read-Search-Ask</a> method if you get stuck."
       ],
       "releasedOn": "January 15, 2017",
       "challengeSeed": [
@@ -297,16 +279,7 @@
       "type": "zipline",
       "isRequired": true,
       "challengeType": 3,
-      "translations": {
-        "es": {
-          "title": "",
-          "description": []
-        },
-        "ru": {
-          "title": "",
-          "description": []
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78b0367417b2b2512b06",
@@ -314,9 +287,9 @@
       "description": [
         "Fulfill the user stories by getting all of the tests to pass. Use whichever libraries you need. Give it your own personal style.",
         "Here's a <a href='http://codepen.io/freeCodeCamp/full/zNBOYG' target='_blank'>working example</a>. Try not to look at its code.",
-        "You can build your project by forking <a href='http://codepen.io/FCC_test_suites/pen/JbgXab' target='_blank'>this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: <code>https://gitcdn.link/repo/no-stack-dub-sack/testable-projects-fcc/master/build/bundle.js</code>",
-        "Once you're done, submit below the URL to your working project with all its tests passing.",
-        "Remember to use the <a href='https://forum.freecodecamp.com/t/how-to-get-help-when-you-are-stuck/19514' target='_blank'>Read-Search-Ask</a> method if you get stuck."
+        "You can build your project by forking <a href='http://codepen.io/freeCodeCamp/pen/MJjpwO' target='_blank'>this CodePen pen</a>. Or you can use this CDN link to run the tests in any environment you like: <code>https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js</code>",
+        "Once you're done, submit the URL to your working project with all its tests passing.",
+        "Remember to use the <a href='https://forum.freeCodeCamp.com/t/how-to-get-help-when-you-are-stuck/19514' target='_blank'>Read-Search-Ask</a> method if you get stuck."
       ],
       "challengeSeed": [
         "Uw6sYKY"

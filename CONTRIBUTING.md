@@ -10,6 +10,8 @@ We welcome pull requests from freeCodeCamp campers (our students) and seasoned J
 
 Remember to feel free to ask for help in our [Contributors](https://gitter.im/FreeCodeCamp/Contributors) Gitter room.
 
+Working on your first Pull Request? You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+
 ###### If you've found a bug that is not on the board, [follow these steps](#found-a-bug).
 
 --------------------------------------------------------------------------------
@@ -51,7 +53,7 @@ mongo --version
 If your versions are lower than the prerequisite versions, you should update.
 
 Platform-specific guides to setting up a development environment:
-- [How to clone and setup the Free Code Camp website on a Windows pc](https://forum.freecodecamp.com/t/how-to-clone-and-setup-the-free-code-camp-website-on-a-windows-pc/19366)
+- [How to clone and setup the freeCodeCamp website on a Windows pc](https://forum.freecodecamp.com/t/how-to-clone-and-setup-the-free-code-camp-website-on-a-windows-pc/19366)
 - [How to Clone and Setup the freeCodeCamp Website on a Mac](https://forum.freecodecamp.com/t/how-to-clone-and-setup-the-freecodecamp-website-on-a-mac/78450)
 
 ### Forking The Project
@@ -417,6 +419,9 @@ overwrite your old commit: `git push --force`
 Be sure to post in the PR conversation that you have made the requested changes.
 
 ### Other resources
+
+-   [Style Guide for freeCodeCamp
+    Challenges](https://github.com/freeCodeCamp/freeCodeCamp/blob/staging/seed/challenge-style-guide.md)
 
 -   [Searching for Your Issue on
     GitHub](http://forum.freecodecamp.com/t/searching-for-existing-issues/19139)

@@ -5,7 +5,7 @@
   "helpRoom": "Help",
   "challenges": [
     {
-      "id": "597d7790367517u2y2517ab2",
+      "id": "597d77903675177232517ab2",
       "title": "Introduction to Basic CSS",
       "description": [
         [
@@ -23,7 +23,7 @@
         [
           "",
           "",
-          "CSS can be applied both as inline styles\u2014typed directly within HTML <code>style</code> tags\u2014or external style sheets\u2014typed in a separate file that is referenced from your HTML file. Most developers prefer external style sheets because they keep the styles separate from the HTML elements, therefore improving the readability and reusability of your code.",
+          "There are three main ways to apply CSS styling. You can apply inline styles directly to HTML elements with the <code>style</code> attribute. Alternatively, you can place CSS rules within <code>style</code> tags in an HTML document. Finally, you can write CSS rules in an external style sheet, then reference that file in the HTML document. Even though the first two options have their use cases, most developers prefer external style sheets because they keep the styles separate from the HTML elements. This improves the readability and reusability of your code.",
           ""
         ],
         [
@@ -39,18 +39,7 @@
       "type": "Waypoint",
       "challengeType": 7,
       "isRequired": false,
-      "titleEs": "",
-      "descriptionEs": [
-        []
-      ],
-      "titleFr": "",
-      "descriptionFr": [
-        []
-      ],
-      "titleDe": "",
-      "descriptionDe": [
-        []
-      ]
+      "translations": {}
     },
     {
       "id": "bad87fee1348bd9aedf08803",
@@ -60,7 +49,7 @@
         "We can do this by changing the <code>style</code> of your <code>h2</code> element.",
         "The style that is responsible for the color of an element's text is the \"color\" style.",
         "Here's how you would set your <code>h2</code> element's text color to blue:",
-        "<code>&#60;h2 style=\"color: blue\"&#62;CatPhotoApp&#60;/h2&#62;</code>",
+        "<code>&#60;h2 style=\"color: blue;\"&#62;CatPhotoApp&#60;/h2&#62;</code>",
         "<hr>",
         "Change your <code>h2</code> element's style so that its text color is red."
       ],
@@ -98,7 +87,7 @@
         "</main>"
       ],
       "tests": [
-        "assert($(\"h2\").css(\"color\") === \"rgb(255, 0, 0)\", 'message: Your <code>h2</code> element should be red.');"
+        "assert(code.match(/<h2\\s+style=\"color:\\s*rgb\\(255,\\s*0,\\s*0\\)\\;?\">\\s*CatPhotoApp\\s*<\\/h2>/) || code.match(/<h2\\s+style=\"color:\\s*red\\;?\">\\s*CatPhotoApp\\s*<\\/h2>/), 'message: Your <code>h2</code> element should be red.');"
       ],
       "type": "waypoint",
       "challengeType": 0,
@@ -158,7 +147,7 @@
       "description": [
         "With CSS, there are hundreds of CSS <code>properties</code> that you can use to change the way an element looks on your page.",
         "When you entered <code>&#60;h2 style=\"color: red\"&#62;CatPhotoApp&#60;/h2&#62;</code>, you were giving that individual <code>h2</code> element an <code>inline style</code>.",
-        "That's one way to add style to an element, but a better way is by using <code>CSS</code>, which stands for <code>Cascading Style Sheets</code>.",
+        "That's one way to add style to an element, but there's a better way to use <code>CSS</code>, which stands for <code>Cascading Style Sheets</code>.",
         "At the top of your code, create a <code>style</code> element like this:",
         "<blockquote>&#60;style&#62;<br>&#60;/style&#62;</blockquote>",
         "Inside that style element, you can create a <code>CSS selector</code> for all <code>h2</code> elements. For example, if you wanted all <code>h2</code> elements to be red, your style element would look like this:",
@@ -823,8 +812,8 @@
         "For example, if you wanted an element to use the <code>Helvetica</code> font, but also degrade to the <code>Sans-Serif</code> font when <code>Helvetica</code> wasn't available, you could use this CSS style:",
         "<blockquote>p {<br>&nbsp;&nbsp;font-family: Helvetica, Sans-Serif;<br>}</blockquote>",
         "<hr>",
-        "Now comment out your call to Google Fonts, so that the <code>Lobster</code> font isn't available. Notice how it degrades to the <code>Monospace</code> font.",
-        "<strong>Note</strong><br>If you have the Lobster font installed on your computer, you wont see the degradation because your browser is able to find the font."
+        "Now comment out your call to Google Fonts, so that the <code>Lobster</code> font isn't available. You'll also have to make sure the heading font gets degraded to <code>Monospace</code>. Some CSS changes will be necessary for this.",
+        "<strong>Note</strong><br>If you have the Lobster font installed on your computer, you won't see the degradation because your browser is able to find the font."
       ],
       "challengeSeed": [
         "<link href=\"https://fonts.googleapis.com/css?family=Lobster\" rel=\"stylesheet\" type=\"text/css\">",
@@ -834,7 +823,7 @@
         "  }",
         "",
         "  h2 {",
-        "    font-family: Lobster, Monospace;",
+        "    font-family: Lobster;",
         "  }",
         "",
         "  p {",

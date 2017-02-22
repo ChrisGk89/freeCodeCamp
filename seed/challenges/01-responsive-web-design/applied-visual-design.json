@@ -15,24 +15,13 @@
           ""
         ]
       ],
-      "releasedOn": "",
+      "releasedOn": "Feb 17, 2017",
       "challengeSeed": [],
       "tests": [],
-      "type": "Waypoint",
+      "type": "waypoint",
       "challengeType": 7,
       "isRequired": false,
-      "titleEs": "",
-      "descriptionEs": [
-        []
-      ],
-      "titleFr": "",
-      "descriptionFr": [
-        []
-      ],
-      "titleDe": "",
-      "descriptionDe": [
-        []
-      ]
+      "translations": {}
     },
     {
       "id": "587d7791367417b2b2512ab3",
@@ -73,8 +62,8 @@
         "      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a>",
-        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
@@ -87,25 +76,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7791367417b2b2512ab4",
@@ -146,8 +119,8 @@
         "      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a>",
-        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
@@ -158,25 +131,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7791367417b2b2512ab5",
@@ -218,8 +175,8 @@
         "      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a>",
-        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
@@ -230,25 +187,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d7791367417b2b2512ab6",
@@ -293,8 +234,8 @@
         "      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
@@ -305,25 +246,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781a367417b2b2512ab7",
@@ -331,7 +256,7 @@
       "description": [
         "To make text bold, you can use the <code>strong</code> tag. This is often used to draw attention to text and symbolize that it is important. With the <code>strong</code> tag, the browser applies the CSS of <code>font-weight: bold;</code> to the element.",
         "<hr>",
-        "Wrap a <code>strong</code> tag around the entire <code>h4</code> element and its contents."
+        "Wrap a <code>strong</code> tag around \"Stanford University\" inside the <code>p</code> tag."
       ],
       "challengeSeed": [
         "<style>",
@@ -367,38 +292,23 @@
         "      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
       ],
       "tests": [
         "assert($('strong').length == 1, 'message: Your code should add one <code>strong</code> tag to the markup.');",
-        "assert($('strong').children('h4').length == 1, 'message: The <code>strong</code> tag should wrap around the <code>h4</code> tag and its contents.');"
+        "assert($('p').children('strong').length == 1, 'message: The <code>strong</code> tag should be inside the <code>p</code> tag.');",
+        "assert($('strong').text().match(/Stanford University/gi), 'message: The <code>strong</code> tag should wrap around the words \"Stanford University\".');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781a367417b2b2512ab8",
@@ -406,7 +316,7 @@
       "description": [
         "To underline text, you can use the <code>u</code> tag. This is often used to signify that a section of text is important, or something to remember. With the <code>u</code> tag, the browser applies the CSS of <code>text-decoration: underline;</code> to the element.",
         "<hr>",
-        "Wrap the <code>u</code> tag around the two anchor tags. It should not include the parent <code>div</code> that has the class of <code>cardLinks</code>.",
+        "Wrap the <code>u</code> tag around the text \"Ph.D. students\". It should not include the parent <code>div</code> that has the class of <code>cardText</code>.",
         "<strong>Note</strong><br>Try to avoid using the <code>u</code> tag when it could be confused for a link. Anchor tags also have a default underlined formatting."
       ],
       "challengeSeed": [
@@ -439,43 +349,27 @@
         "<div class=\"fullCard\">",
         "  <div class=\"cardContent\">",
         "    <div class=\"cardText\">",
-        "      <strong><h4>Google</h4></strong>",
-        "      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>",
+        "      <h4>Google</h4>",
+        "      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at <strong>Stanford University</strong>.</p>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
       ],
       "tests": [
-        "assert($('u').length == 1, 'message: Your code should add a <code>u</code> tag to the markup.');",
-        "assert($('u').children('a').length == 2, 'message: The <code>u</code> tag should wrap around and contain the two <code>a</code> tags.');",
-        "assert($('u').children('div').length == 0, 'message: The <code>u</code> tag should not wrap around the parent <code>div</code> tag.');"
+        "assert($('u').length === 1, 'message: Your code should add a <code>u</code> tag to the markup.');",
+        "assert($('u').text().indexOf('Ph.D. students') > -1, 'message: The <code>u</code> tag should wrap around the text \"Ph.D. students\".');",
+        "assert($('u').children('div').length === 0, 'message: The <code>u</code> tag should not wrap around the parent <code>div</code> tag.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781a367417b2b2512ab9",
@@ -515,14 +409,12 @@
         "<div class=\"fullCard\">",
         "  <div class=\"cardContent\">",
         "    <div class=\"cardText\">",
-        "      <strong><h4>Google</h4></strong>",
-        "      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>",
+        "      <h4>Google</h4>",
+        "      <p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <u>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
-        "      </u>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
@@ -534,25 +426,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781b367417b2b2512aba",
@@ -592,14 +468,12 @@
         "<div class=\"fullCard\">",
         "  <div class=\"cardContent\">",
         "    <div class=\"cardText\">",
-        "      <strong><h4>Google</h4></strong>",
-        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p></em>",
+        "      <h4>Google</h4>",
+        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p></em>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <u>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
-        "      </u>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
@@ -612,25 +486,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781b367417b2b2512abb",
@@ -671,45 +529,27 @@
         "<div class=\"fullCard\">",
         "  <div class=\"cardContent\">",
         "    <div class=\"cardText\">",
-        "      <strong><h4><del>Google</del>Alphabet</h4></strong>",
+        "      <h4><del>Google</del>Alphabet</h4>",
         "      ",
-        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p></em>",
+        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p></em>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <u>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
-        "      </u>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
       ],
       "tests": [
         "assert($('hr').length == 1, 'message: Your code should add an <code>hr</code> tag to the markup.');",
-        "assert(code.match(/<\\/strong>\\s*?<hr(>|\\s*?\\/>)\\s*?<em>/gi), 'message: The <code>hr</code> tag should come between the title and the paragraph.');"
+        "assert(code.match(/<\\/h4>\\s*?<hr(>|\\s*?\\/>)\\s*?<em>/gi), 'message: The <code>hr</code> tag should come between the title and the paragraph.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781b367417b2b2512abc",
@@ -717,7 +557,7 @@
       "description": [
         "Instead of adjusting your overall background or the color of the text to make the foreground easily readable, you can add a <code>background-color</code> to the element holding the text you want to emphasize. This challenge uses <code>rgba()</code> instead of <code>hex</code> codes or normal <code>rgb()</code>.",
         "<blockquote>rgba stands for:<br>  r = red<br>  g = green<br>  b = blue<br>  a = alpha/level of opacity</blockquote>",
-        "The rgb values can range from 0 to 255. The alpha value can range from 1, which is fully opaque or a solid color, to 0, which is fully transparent or clear. <code>rgba()</code> is great to use in this case, as it allows you to adjust the opacity. This means you don't have to completely block out the background.",
+        "The RGB values can range from 0 to 255. The alpha value can range from 1, which is fully opaque or a solid color, to 0, which is fully transparent or clear. <code>rgba()</code> is great to use in this case, as it allows you to adjust the opacity. This means you don't have to completely block out the background.",
         "You'll use <code>background-color: rgba(45, 45, 45, 0.1)</code> for this challenge. It produces a dark gray color that is nearly transparent given the low opacity value of 0.1.",
         "<hr>",
         "To make the text stand out more, adjust the <code>background-color</code> of the <code>h4</code> element to the given <code>rgba()</code> value.",
@@ -755,15 +595,13 @@
         "<div class=\"fullCard\">",
         "  <div class=\"cardContent\">",
         "    <div class=\"cardText\">",
-        "      <strong><h4>Alphabet</h4></strong>",
+        "      <h4>Alphabet</h4>",
         "      <hr>",
-        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p></em>",
+        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p></em>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <u>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
-        "      </u>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
@@ -776,25 +614,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781b367417b2b2512abd",
@@ -836,15 +658,13 @@
         "<div class=\"fullCard\">",
         "  <div class=\"cardContent\">",
         "    <div class=\"cardText\">",
-        "      <strong><h4>Alphabet</h4></strong>",
+        "      <h4>Alphabet</h4>",
         "      <hr>",
-        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p></em>",
+        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p></em>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <u>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
-        "      </u>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
@@ -855,36 +675,20 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781b367417b2b2512abe",
       "title": "Add a Box-shadow to a Card-like Element",
       "description": [
-        "The <code>box-shadow</code> property applies one or more shadows to an element. This technique can be used on any state of an element, but here you'll apply it on hover.",
+        "The <code>box-shadow</code> property applies one or more shadows to an element.",
         "The <code>box-shadow</code> property takes values for <code>offset-x</code> (how far to push the shadow horizontally from the element), <code>offset-y</code> (how far to push the shadow vertically from the element), <code>blur-radius</code>, <code>spread-radius</code> and a color value, in that order. The <code>blur-radius</code> and <code>spread-radius</code> values are optional.",
         "Here's an example of the CSS to create multiple shadows with some blur, at mostly-transparent black colors:",
         "<blockquote>box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);</blockquote>",
         "<hr>",
-        "Use the example CSS values above to place a <code>box-shadow</code> on the card. The element now has an id of <code>thumbnail</code>, use this selector to place the shadows for the hover state."
+        "The element now has an id of <code>thumbnail</code>. With this selector, use the example CSS values above to place a <code>box-shadow</code> on the card."
       ],
       "challengeSeed": [
         "<style>",
@@ -921,47 +725,27 @@
         "<div class=\"fullCard\" id=\"thumbnail\">",
         "  <div class=\"cardContent\">",
         "    <div class=\"cardText\">",
-        "      <strong><h4>Alphabet</h4></strong>",
+        "      <h4>Alphabet</h4>",
         "      <hr>",
-        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p></em>",
+        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p></em>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <u>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
-        "      </u>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
       ],
       "tests": [
-        "assert(code.match(/#thumbnail:hover\\s*?{\\s*?box-shadow/g), 'message: Your code should add a <code>box-shadow</code> property for the <code>thumbnail</code> id on its hover state.');",
+        "assert(code.match(/#thumbnail\\s*?{\\s*?box-shadow/g), 'message: Your code should add a <code>box-shadow</code> property for the <code>thumbnail</code> id.');",
         "assert(code.match(/box-shadow:\\s*?0\\s+?10px\\s+?20px\\s+?rgba\\(\\s*?0\\s*?,\\s*?0\\s*?,\\s*?0\\s*?,\\s*?0?\\.19\\),\\s*?0\\s+?6px\\s+?6px\\s+?rgba\\(\\s*?0\\s*?,\\s*?0\\s*?,\\s*?0\\s*?,\\s*?0?\\.23\\)/gi), 'message: You should use the given CSS for the <code>box-shadow</code> value.');"
       ],
       "solutions": [],
-      "hints": [
-        "Remember to use the appropriate pseudo-class selector to place the box-shadows only on the hover state."
-      ],
+      "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781c367417b2b2512abf",
@@ -989,7 +773,7 @@
         "    color: black;",
         "    ",
         "  }",
-        "  #thumbnail:hover {",
+        "  #thumbnail {",
         "    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);",
         "  }",
         "  .fullCard {",
@@ -1009,53 +793,36 @@
         "<div class=\"fullCard\" id=\"thumbnail\">",
         "  <div class=\"cardContent\">",
         "    <div class=\"cardText\">",
-        "      <strong><h4>Alphabet</h4></strong>",
+        "      <h4>Alphabet</h4>",
         "      <hr>",
-        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p></em>",
+        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p></em>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <u>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
-        "      </u>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
       ],
       "tests": [
-        "assert($('.links').css('opacity') == '0.7', 'message: Your code should set the <code>opacity</code> property to 0.7 on the anchor tags by selecting the class of <code>links</code>.');"
+        "assert.approximately(parseFloat($('.links').css('opacity')), 0.7, 0.1, 'message: Your code should set the <code>opacity</code> property to 0.7 on the anchor tags by selecting the class of <code>links</code>.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781c367417b2b2512ac0",
       "title": "Use the Text-transform Property to Make Text Uppercase",
       "description": [
-        "The <code>text-transform</code> property in CSS is used to set text to uppercase.",
-        "<strong>Note</strong><br>Other values for this property are lowercase, capitalize (transforms the first letter of each word to uppercase), initial (sets the property to the default value), inherit (inherits the property from parent element) and none (the default).",
+        "The <code>text-transform</code> property in CSS is used to change the appearance of text. It's a convenient way to make sure text on a webpage appears consistently, without having to change the text content of the actual HTML elements.",
+        "The following table shows how the different <code>text-transform</code>values change the example text \"Transform me\".",
+        "<table class=\"table table-striped\"><thead><th>Value<th>Result<tbody><tr><td><code>lowercase</code><td>\"transform me\"<tr><td><code>uppercase</code><td>\"TRANSFORM ME\"<tr><td><code>capitalize</code><td>\"Transform Me\"<tr><td><code>initial</code><td>Use the default value<tr><td><code>inherit</code><td>Use the <code>text-transform</code> value from the parent element<tr><td><code>none</code><td><strong>Default:</strong> Use the original text</td></table>",
         "<hr>",
-        "Set the text inside the <code>h4</code> tag to be uppercase using the <code>text-transform</code> property."
+        "Transform the text of the <code>h4</code> to be uppercase using the <code>text-transform</code> property."
       ],
       "challengeSeed": [
         "<style>",
@@ -1074,7 +841,7 @@
         "    color: black;",
         "    opacity: 0.7;",
         "  }",
-        "  #thumbnail:hover {",
+        "  #thumbnail {",
         "    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);",
         "  }",
         "  .fullCard {",
@@ -1094,44 +861,27 @@
         "<div class=\"fullCard\" id=\"thumbnail\">",
         "  <div class=\"cardContent\">",
         "    <div class=\"cardText\">",
-        "      <strong><h4>Alphabet</h4></strong>",
+        "      <h4>Alphabet</h4>",
         "      <hr>",
-        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p></em>",
+        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p></em>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <u>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
-        "      </u>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
       ],
       "tests": [
-        "assert($('h4').css('text-transform') == 'uppercase', 'message: The <code>h4</code> text should be uppercase.');"
+        "assert($('h4').css('text-transform') === 'uppercase', 'message: The <code>h4</code> text should be uppercase.');",
+        "assert(($('h4').text() !== $('h4').text().toUpperCase()), 'message: The original text of the h4 should not be changed.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781c367417b2b2512ac1",
@@ -1143,7 +893,7 @@
         }
       ],
       "description": [
-        "<code>Google Fonts</code> is a great way to find free fonts to use in a project.",
+        "<a href='https://fonts.google.com/' target='_blank'>Google Fonts</a> is a great way to find free fonts to use in a project.",
         "Once you have selected the preferred font, copy the link tag that is provided and insert it into the <code>head</code> of your page.",
         "The Open Sans font is already added for you behind the scenes, but the code to include it in your own project is the following:",
         "<code>&lt;link href=\"https://fonts.googleapis.com/css?family=Open+Sans\" rel=\"stylesheet\"&gt;</code>",
@@ -1173,7 +923,7 @@
         "    color: black;",
         "    opacity: 0.7;",
         "  }",
-        "  #thumbnail:hover {",
+        "  #thumbnail {",
         "    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);",
         "  }",
         "  .fullCard {",
@@ -1193,15 +943,13 @@
         "<div class=\"fullCard\" id=\"thumbnail\">",
         "  <div class=\"cardContent\">",
         "    <div class=\"cardText\">",
-        "      <strong><h4>Alphabet</h4></strong>",
+        "      <h4>Alphabet</h4>",
         "      <hr>",
-        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p></em>",
+        "      <em><p>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p></em>",
         "    </div>",
         "    <div class=\"cardLinks\">",
-        "      <u>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" class=\"links\">Larry Page</a><br><br>",
-        "        <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" class=\"links\">Sergey Brin</a>",
-        "      </u>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Larry_Page\" target=\"_blank\" class=\"links\">Larry Page</a><br><br>",
+        "      <a href=\"https://en.wikipedia.org/wiki/Sergey_Brin\" target=\"_blank\" class=\"links\">Sergey Brin</a>",
         "    </div>",
         "  </div>",
         "</div>"
@@ -1211,25 +959,9 @@
       ],
       "solutions": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781c367417b2b2512ac2",
@@ -1273,25 +1005,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781c367417b2b2512ac3",
@@ -1354,25 +1070,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781c367417b2b2512ac4",
@@ -1398,25 +1098,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781d367417b2b2512ac5",
@@ -1443,25 +1127,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781d367417b2b2512ac7",
@@ -1477,7 +1145,7 @@
         "  ",
         "  ",
         "</style>",
-        "<a href=\"https://atjonathan.github.io/catphotoapp\">CatPhotoApp</a>"
+        "<a href=\"http://freecatphotoapp.com/\" target=\"_blank\">CatPhotoApp</a>"
       ],
       "tests": [
         "assert($('a').css('color') == 'rgb(0, 0, 0)', 'message: The <code>color</code> of the anchor tag text should be black.')"
@@ -1485,25 +1153,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781d367417b2b2512ac8",
@@ -1523,7 +1175,7 @@
         "  ",
         "  ",
         "</style>",
-        "<a href=\"https://atjonathan.github.io/catphotoapp\">CatPhotoApp</a>"
+        "<a href=\"http://freecatphotoapp.com/\" target=\"_blank\">CatPhotoApp</a>"
       ],
       "tests": [
         "assert($('a').css('color') == 'rgb(0, 0, 0)', 'message: The anchor tag <code>color</code> should remain black, only add CSS rules for the <code>:hover</code> state.');",
@@ -1532,25 +1184,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781e367417b2b2512ac9",
@@ -1562,7 +1198,6 @@
         "Changing an element's position to relative does not remove it from the normal flow - other elements around it still behave as if that item were in its default position.",
         "<strong>Note</strong><br>Positioning gives you a lot of flexibility and power over the visual layout of a page. It's good to remember that no matter the position of elements, the underlying HTML markup should be organized and make sense when read from top to bottom. This is how users with visual impairments (who rely on assistive devices like screen readers) access your content.",
         "<hr>",
-        "<a href='https://google.com' target='_top'>test</a>",
         "Change the <code>position</code> of the <code>h2</code> to <code>relative</code>, and use a CSS offset to move it 15 pixels away from the <code>top</code> of where it sits in the normal flow. Notice there is no impact on the positions of the surrounding h1 and p elements."
       ],
       "challengeSeed": [
@@ -1585,25 +1220,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781e367417b2b2512aca",
@@ -1636,25 +1255,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781e367417b2b2512acb",
@@ -1695,25 +1298,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d781e367417b2b2512acc",
@@ -1766,25 +1353,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a3367417b2b2512ace",
@@ -1832,25 +1403,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a3367417b2b2512acf",
@@ -1891,25 +1446,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a3367417b2b2512ad0",
@@ -1937,25 +1476,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a3367417b2b2512ad1",
@@ -1997,95 +1520,68 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a4367417b2b2512ad2",
       "title": "Learn about Tertiary Colors",
       "description": [
-        "Computer monitors and device screens create different colors by combining amounts of red, green, and blue light. This is known as the RGB additive color model in modern color theory. Red (R), green (G), and blue (B) are called primary colors. Mixing two primary colors creates the secondary colors cyan (G + B), magenta (R + B), and yellow (R + G). You saw in these colors in the Complementary Colors challenge. These secondary colors happen to be the complement to the primary color not used in their creation, and are opposite to that primary color on the color wheel. For example, magenta is made with red and blue, and is the complement to green.",
+        "Computer monitors and device screens create different colors by combining amounts of red, green, and blue light. This is known as the RGB additive color model in modern color theory. Red (R), green (G), and blue (B) are called primary colors. Mixing two primary colors creates the secondary colors cyan (G + B), magenta (R + B) and yellow (R + G). You saw these colors in the Complementary Colors challenge. These secondary colors happen to be the complement to the primary color not used in their creation, and are opposite to that primary color on the color wheel. For example, magenta is made with red and blue, and is the complement to green.",
         "Tertiary colors are the result of combining a primary color with one of its secondary color neighbors. For example, red (primary) and yellow (secondary) make orange. This adds six more colors to a simple color wheel for a total of twelve.",
-        "There are various methods of selecting different colors that result in a harmonious combination in design. One example that can use tertiary colors is called the split-complementary color scheme. It starts with a base color, then pairs it with the two colors that are adjacent to its complement. The three colors provide strong visual contrast in a design, but is more subtle than using two complementary colors.",
-        "Here are three colors using the split-complement scheme:",
-        "<blockquote>cyan (#00FFFF)<br>orange (#FF7D00)<br>raspberry (#FF007D)</blockquote>",
+        "There are various methods of selecting different colors that result in a harmonious combination in design. One example that can use tertiary colors is called the split-complementary color scheme. This scheme starts with a base color, then pairs it with the two colors that are adjacent to its complement. The three colors provide strong visual contrast in a design, but are more subtle than using two complementary colors.",
+        "Here are three colors created using the split-complement scheme:",
+        "<table class=\"table table-striped\"><thead><tr><th>Color</th><th>Hex Code</th></tr><thead><tbody><tr><td>orange</td><td>#FF7D00</td></tr><tr><td>cyan</td><td>#00FFFF</td></tr><tr><td>raspberry</td><td>#FF007D</td></tr></tbody></table>",
         "<hr>",
-        "Change the <code>background-color</code> property of the <code>orange</code>, <code>cyan</code>, and <code>raspberry</code> classes to their respective colors. Make sure to use the hex codes because the orange and raspberry in the example above are not browser-recognized color names."
+        "Change the <code>background-color</code> property of the <code>orange</code>, <code>cyan</code>, and <code>raspberry</code> classes to their respective colors. Make sure to use the hex codes as orange and raspberry are not browser-recognized color names."
       ],
       "challengeSeed": [
         "<style>",
         "  body {",
         "    background-color: #FFFFFF;",
         "  }",
+        "  ",
         "  .orange {",
         "    background-color: #000000;",
         "  }",
+        "  ",
         "  .cyan {",
         "    background-color: #000000;",
         "  }",
+        "  ",
         "  .raspberry {",
         "    background-color: #000000;",
-        "  }  ",
+        "  }",
+        "  ",
         "  div {",
         "    height: 100px;",
         "    width: 100px;",
         "    margin-bottom: 5px;",
         "  }",
         "</style>",
+        "  ",
         "<div class=\"orange\"></div>",
         "<div class=\"cyan\"></div>",
         "<div class=\"raspberry\"></div>"
       ],
       "tests": [
-        "assert($('.orange').css('background-color') == 'rgb(255, 125, 0)', 'message: The <code>div</code> element with class <code>orange</code> should have a <code>background-color</code> of orange.');",
-        "assert($('.cyan').css('background-color') == 'rgb(0, 255, 255)', 'message: The <code>div</code> element with class <code>cyan</code> should have a <code>background-color</code> of cyan.');",
-        "assert($('.raspberry').css('background-color') == 'rgb(255, 0, 125)', 'message: The <code>div</code> element with class <code>raspberry</code> should have a <code>background-color</code> of raspberry.');"
+        "assert(code.match(/.orange\\s*\\{\\s*background-color:\\s*#FF7D00;?\\s*\\}/g), 'message: The <code>div</code> element with class <code>orange</code> should have a <code>background-color</code> of orange.');",
+        "assert(code.match(/.cyan\\s*\\{\\s*background-color:\\s*#00FFFF;?\\s*\\}/g), 'message: The <code>div</code> element with class <code>cyan</code> should have a <code>background-color</code> of cyan.');",
+        "assert(code.match(/.raspberry\\s*\\{\\s*background-color:\\s*#FF007D;?\\s*\\}/g), 'message: The <code>div</code> element with class <code>raspberry</code> should have a <code>background-color</code> of raspberry.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a4367417b2b2512ad3",
       "title": "Adjusting the Color of Various Elements to Complementary Colors",
       "description": [
-        "The complementary colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.",
+        "The Complementary Colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement is used to bring visual attention to certain content on the page.",
         "<hr>",
         "This page will use a shade of teal (<code>#09A7A1</code>) as the dominant color, and its orange (<code>#FF790E</code>) complement to visually highlight the sign-up buttons. Change the <code>background-color</code> of both the <code>header</code> and <code>footer</code> from black to the teal color. Then change the <code>h2</code> text <code>color</code> to teal as well. Finally, change the <code>background-color</code> of the <code>button</code> to the orange color."
       ],
@@ -2138,32 +1634,16 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a4367417b2b2512ad4",
       "title": "Adjust the Hue of a Color",
       "description": [
         "Colors have several characteristics including hue, saturation, and lightness. CSS3 introduced the <code>hsl()</code> property as an alternative way to pick a color by directly stating these characteristics.",
-        "<b>Hue</b> is what people generally think of as 'color'. If you picture a spectrum of colors starting with red on the left, moving through green in the middle, and blue on right, the hue is where a color fits along this line. In hsl(), hue uses a color wheel concept instead of the spectrum, where the angle of the color on the circle is given as a value between 0 and 360.",
+        "<b>Hue</b> is what people generally think of as 'color'. If you picture a spectrum of colors starting with red on the left, moving through green in the middle, and blue on right, the hue is where a color fits along this line. In <code>hsl()</code>, hue uses a color wheel concept instead of the spectrum, where the angle of the color on the circle is given as a value between 0 and 360.",
         "<b>Saturation</b> is the amount of gray in a color. A fully saturated color has no gray in it, and a minimally saturated color is almost completely gray. This is given as a percentage with 100% being fully saturated.",
         "<b>Lightness</b> is the amount of white or black in a color. A percentage is given ranging from 0% (black) to 100% (white), where 50% is the normal color.",
         "Here are a few examples of using <code>hsl()</code> with fully-saturated, normal lightness colors:",
@@ -2207,25 +1687,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a4367417b2b2512ad5",
@@ -2278,25 +1742,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a5367417b2b2512ad6",
@@ -2304,7 +1752,7 @@
       "description": [
         "Applying a color on HTML elements is not limited to one flat hue. CSS provides the ability to use color transitions, otherwise known as gradients, on elements. This is accessed through the <code>background</code> property's <code>linear-gradient()</code> function. Here is the general syntax:",
         "<code>background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);</code>",
-        "The fist argument specifies the direction from which color transition starts - it can be stated as a degree, where 90deg makes a vertical gradient and 45deg is angled like a backslash. The following arguments specify the order of colors used in the gradient.",
+        "The first argument specifies the direction from which color transition starts - it can be stated as a degree, where 90deg makes a vertical gradient and 45deg is angled like a backslash. The following arguments specify the order of colors used in the gradient.",
         "Example:",
         "<code>background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));</code>",
         "<hr>",
@@ -2331,25 +1779,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a5367417b2b2512ad7",
@@ -2396,25 +1828,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a5367417b2b2512ad8",
@@ -2439,25 +1855,9 @@
         "Remember to wrap the address in quotes within the url() function."
       ],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a5367417b2b2512ad9",
@@ -2503,33 +1903,17 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a5367417b2b2512ada",
       "title": "Use the CSS Transform Property to Scale an Element on Hover",
       "description": [
-        "The <code>transform</code> property has a verity of functions that lets you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as <code>:hover</code> that specify a certain state of an element, the <code>transform</code> property can easily add interactivity to your elements.",
+        "The <code>transform</code> property has a variety of functions that lets you scale, move, rotate, skew, etc., your elements. When used with pseudo-classes such as <code>:hover</code> that specify a certain state of an element, the <code>transform</code> property can easily add interactivity to your elements.",
         "Here's an example to scale the paragraph elements to 2.1 times their original size when a user hovers over them:",
-        "<blockquote>p:hover {<br>  transform: scale(2.1);}<br>}</blockquote>",
+        "<blockquote>p:hover {<br>  transform: scale(2.1);<br>}</blockquote>",
         "<hr>",
         "Add a CSS rule for the <code>hover</code> state of the <code>div</code> and use the <code>transform</code> property to scale the <code>div</code> element to 1.1 times its original size when a user hovers over it."
       ],
@@ -2560,35 +1944,19 @@
         "Make sure to apply the CSS rule to the hover state of the div, using div:hover"
       ],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a6367417b2b2512adb",
       "title": "Use the CSS Transform Property SkewX",
       "description": [
         "The next function of the <code>transform</code> property is <code>skewX()</code>, which skews the selected element along its X (horizontal) axis by a given degree.",
-        "The following code skews the paragraph element by -32 degrees along the X axis.",
+        "The following code skews the paragraph element by -32 degrees along the X-axis.",
         "<blockquote>p {<br>  transform: skewX(-32deg);<br>}</blockquote>",
         "<hr>",
-        "Skew the element with the id of <code>bottom</code> by 24 degrees along the X axis by using the <code>transform</code> property."
+        "Skew the element with the id of <code>bottom</code> by 24 degrees along the X-axis by using the <code>transform</code> property."
       ],
       "challengeSeed": [
         "<style>",
@@ -2611,40 +1979,24 @@
         "<div id=\"bottom\"></div>"
       ],
       "tests": [
-        "assert(code.match(/#bottom\\s*?{\\s*?.*?\\s*?transform:\\s*?skewX\\(24deg\\);/g), 'message: The element with id <code>bottom</code> should be skewed by 24 degrees along its X axis.');"
+        "assert(code.match(/#bottom\\s*?{\\s*?.*?\\s*?transform:\\s*?skewX\\(24deg\\);/g), 'message: The element with id <code>bottom</code> should be skewed by 24 degrees along its X-axis.');"
       ],
       "solutions": [],
       "hints": [
         "Notice that there is no space between the number and \"deg\" (-32deg) when declaring the degrees value."
       ],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a6367417b2b2512adc",
       "title": "Use the CSS Transform Property SkewY",
       "description": [
-        "Given that the <code>skewX()</code> function skews the selected element along the X axis by a given degree, it is no surprise that the <code>skewY()</code> property skews an element along the Y (vertical) axis.",
+        "Given that the <code>skewX()</code> function skews the selected element along the X-axis by a given degree, it is no surprise that the <code>skewY()</code> property skews an element along the Y (vertical) axis.",
         "<hr>",
-        "Skew the element with the id of <code>top</code> -10 degrees along the Y axis by using the <code>transform</code> property."
+        "Skew the element with the id of <code>top</code> -10 degrees along the Y-axis by using the <code>transform</code> property."
       ],
       "challengeSeed": [
         "<style>",
@@ -2668,30 +2020,14 @@
         "<div id=\"bottom\"></div>"
       ],
       "tests": [
-        "assert(code.match(/#top\\s*?{\\s*?.*?\\s*?transform:\\s*?skewY\\(-10deg\\);/g), 'message: The element with id <code>top</code> should be skewed by -10 degrees along its Y axis.');"
+        "assert(code.match(/#top\\s*?{\\s*?.*?\\s*?transform:\\s*?skewY\\(-10deg\\);/g), 'message: The element with id <code>top</code> should be skewed by -10 degrees along its Y-axis.');"
       ],
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a6367417b2b2512add",
@@ -2733,31 +2069,15 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a6367417b2b2512ade",
       "title": "Create a More Complex Shape Using CSS and HTML",
       "description": [
-        "One of the most popular shapes in the world is the heart shape and this challenge creates it with raw CSS. But first, you need to understand the <code>:before</code> and <code>:after</code> selectors. These selectors are used to add something before or after a selected element. In the following example, a <code>:before</code> selector is used to add a rectangle to an element with the class <code>heart</code>:",
+        "One of the most popular shapes in the world is the heart shape, and this challenge creates it with raw CSS. But first, you need to understand the <code>:before</code> and <code>:after</code> selectors. These selectors are used to add something before or after a selected element. In the following example, a <code>:before</code> selector is used to add a rectangle to an element with the class <code>heart</code>:",
         "<blockquote>.heart:before {<br>  content: \"\";<br>  background-color: yellow;<br>  border-radius: 25%;<br>  position: absolute;<br>  height: 50px;<br>  width: 70px;<br>  top: -50px;<br>  left: 5px;<br>}</blockquote>",
         "For the <code>:before</code> and <code>:after</code> selectors to function properly, they must have a defined <code>content</code> property. It usually has content such as a photo or text. When the <code>:before</code> and <code>:after</code> selectors add shapes, the <code>content</code> property is still required, but it's set to an empty string.",
         "In the above example, the element with the class of <code>heart</code> has a <code>:before</code> selector that produces a yellow rectangle with <code>height</code> and <code>width</code> of 50px and 70px, respectively. This rectangle has round corners due to its 25% border radius and is positioned absolutely at 5px from the <code>left</code> and 50px above the <code>top</code> of the element.",
@@ -2812,31 +2132,15 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a7367417b2b2512adf",
       "title": "Learn How CSS Keyframes and Animation Properties Work",
       "description": [
-        "To animate an element, you need to know about the animation properties and the <code>@keyframes</code> rule. The animation properties control how the animation should behave and the <code>@keyframes</code> rule controls what happens during that animation. There are eight animation properties in total, this challenge will keep it simple and cover the two most important ones first:",
+        "To animate an element, you need to know about the animation properties and the <code>@keyframes</code> rule. The animation properties control how the animation should behave and the <code>@keyframes</code> rule controls what happens during that animation. There are eight animation properties in total. This challenge will keep it simple and cover the two most important ones first:",
         "<code>animation-name</code> sets the name of the animation, which is later used by <code>@keyframes</code> to tell CSS which rules go with which animations.",
         "<code>animation-duration</code> sets the length of time for the animation.",
         "<code>@keyframes</code> is how to specify exactly what happens within the animation over the duration. This is done by giving CSS properties for specific \"frames\" during the animation, with percentages ranging from 0% to 100%. If you compare this to a movie, the CSS properties for 0% is how the element displays in the opening scene. The CSS properties for 100% is how the element appears at the end, right before the credits roll. Then CSS applies the magic to transition the element over the given duration to act out the scene. Here's an example to illustrate the usage of <code>@keyframes</code> and the animate properties:",
@@ -2879,25 +2183,9 @@
         "Make sure the @keyframes rule links to the animation-name."
       ],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a7367417b2b2512ae0",
@@ -2905,8 +2193,9 @@
       "description": [
         "You can use CSS <code>@keyframes</code> to change the color of a button in its hover state.",
         "Here's an example of changing the height of an image on hover:",
-        "<blockquote>&lt;style&gt;<br>  img:hover {<br>    animation-name: width;<br>    animation-duration: 4s;<br>  }<br>  @keyframes width {<br>    100% {<br>      width: 40px;<br>    }<br>  }<br>&lt;/style&gt;<br>&lt;img src=&quot;https://bit.ly/smallgooglelogo&quot; alt=&quot;Google's Logo&quot; /&gt;</blockquote>",
+        "<blockquote>&lt;style&gt;<br>  img:hover {<br>    animation-name: width;<br>    animation-duration: 500ms;<br>  }<br>  @keyframes width {<br>    100% {<br>      width: 40px;<br>    }<br>  }<br>&lt;/style&gt;<br>&lt;img src=&quot;https://bit.ly/smallgooglelogo&quot; alt=&quot;Google's Logo&quot; /&gt;</blockquote>",
         "<hr>",
+        "Note that <code>ms</code> stands for milliseconds, which are 1/1000 of a second.",
         "Use CSS <code>@keyframes</code> to change the <code>background-color</code> of the <code>button</code> element so it becomes <code>#4791d0</code> when a user hovers over it. The <code>@keyframes</code> rule should only have an entry for <code>100%</code>."
       ],
       "challengeSeed": [
@@ -2919,7 +2208,7 @@
         "  }",
         "  button:hover {",
         "    animation-name: background-color;",
-        "    animation-duration: 4s;",
+        "    animation-duration: 500ms;",
         "  }",
         "  ",
         "  ",
@@ -2933,25 +2222,49 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
+    },
+    {
+      "id": "58a7a6ebf9a6318348e2d5aa",
+      "title": "Modify Fill Mode of an Animation",
+      "description": [
+        "That's great, but it doesn't work right yet. Notice how the animation resets after <code>500ms</code> has passed, causing the button to revert back to the original color. You want the button to stay highlighted.",
+        "This can be done by setting the <code>animation-fill-mode</code> property to <code>forwards</code>. The <code>animation-fill-mode</code> specifies the style applied to an element when the animation has finished. You can set it like so:",
+        "<code>animation-fill-mode: forwards;</code>",
+        "<hr>",
+        "Set the <code>animation-fill-mode</code> property of <code>button:hover</code> to <code>forwards</code> so the button stays highlighted when a user hovers over it."
+      ],
+      "challengeSeed": [
+        "<style>",
+        "  button {",
+        "    border-radius: 5px;",
+        "    color: white;",
+        "    background-color: #0F5897;",
+        "    padding: 5px 10px 8px 10px;",
+        "  }",
+        "  button:hover {",
+        "    animation-name: background-color;",
+        "    animation-duration: 500ms;",
+        "    ",
+        "  }",
+        "  @keyframes background-color {",
+        "    100% {",
+        "      background-color: #4791d0;",
+        "    }",
+        "  }",
+        "</style>",
+        "<button>Register</button>"
+      ],
+      "tests": [
+        "assert(code.match(/button:hover\\s*?{\\s*?animation-name:\\s*?background-color;\\s*?animation-duration:\\s*?500ms;\\s*?animation-fill-mode:\\s*?forwards;\\s*?}/gi), 'message: <code>button:hover</code> should have a <code>animation-fill-mode</code> property with a value of <code>forwards</code>.');"
+      ],
+      "solutions": [],
+      "hints": [],
+      "type": "waypoint",
+      "challengeType": 0,
+      "translations": {}
     },
     {
       "id": "587d78a7367417b2b2512ae1",
@@ -3008,25 +2321,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a7367417b2b2512ae2",
@@ -3073,25 +2370,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a8367417b2b2512ae3",
@@ -3144,32 +2425,16 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a8367417b2b2512ae4",
       "title": "Make a CSS Heartbeat using an Infinite Animation Count",
       "description": [
         "Here's one more continuous animation example with the <code>animation-iteration-count</code> property that uses the heart you designed in a previous challenge.",
-        "The one second long heartbeat animation consists of two animated pieces. The <code>heart</code> elements (including the <code>:before</code> and <code>:after</code> pieces) are animated to change size using the <code>transform</code> property, and the background <code>div</code> is animated to change its color using the <code>background</code> property.",
+        "The one-second long heartbeat animation consists of two animated pieces. The <code>heart</code> elements (including the <code>:before</code> and <code>:after</code> pieces) are animated to change size using the <code>transform</code> property, and the background <code>div</code> is animated to change its color using the <code>background</code> property.",
         "<hr>",
         "Keep the heart beating by adding the <code>animation-iteration-count</code> property for both the <code>back</code> class and the <code>heart</code> class and setting the value to infinite. The <code>heart:before</code> and <code>heart:after</code> selectors do not need any animation properties."
       ],
@@ -3251,25 +2516,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a8367417b2b2512ae5",
@@ -3342,25 +2591,9 @@
         "Check the animation-name declared in the star-1 class to find the right @keyframes rule to change."
       ],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a8367417b2b2512ae6",
@@ -3434,25 +2667,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a8367417b2b2512ae7",
@@ -3511,32 +2728,16 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a9367417b2b2512ae8",
       "title": "Learn How Bezier Curves Work",
       "description": [
         "The last challenge introduced the <code>animation-timing-function</code> property and a few keywords that change the speed of an animation over its duration. CSS offers an option other than keywords that provides even finer control over how the animation plays out, through the use of Bezier curves.",
-        "In CSS animations, Bezier curves are used with the <code>cubic-bezier</code> function. The shape of the curve represents how the animation plays out. The curve lives on a 1 by 1 coordinate system. The X axis of this coordinate system is the duration of the animation (think of it as a time scale), and the Y axis is the change in the animation.",
+        "In CSS animations, Bezier curves are used with the <code>cubic-bezier</code> function. The shape of the curve represents how the animation plays out. The curve lives on a 1 by 1 coordinate system. The X-axis of this coordinate system is the duration of the animation (think of it as a time scale), and the Y-axis is the change in the animation.",
         "The <code>cubic-bezier</code> function consists of four main points that sit on this 1 by 1 grid: <code>p0</code>, <code>p1</code>, <code>p2</code>, and <code>p3</code>. <code>p0</code> and <code>p3</code> are set for you - they are the beginning and end points which are always located respectively at the origin (0, 0) and (1, 1). You set the x and y values for the other two points, and where you place them in the grid dictates the shape of the curve for the animation to follow. This is done in CSS by declaring the x and y values of the <code>p1</code> and <code>p2</code> \"anchor\" points in the form: <code>(x1, y1, x2, y2)</code>. Pulling it all together, here's an example of a Bezier curve in CSS code:",
         "<code>animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);</code>",
         "In the example above, the x and y values are equivalent for each point (x1 = 0.25 = y1 and x2 = 0.75 = y2), which if you remember from geometry class, results in a line that extends from the origin to point (1, 1). This animation is a linear change of an element during the length of an animation, and is the same as using the <code>linear</code> keyword. In other words, it changes at a constant speed.",
@@ -3591,34 +2792,18 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a9367417b2b2512ae9",
       "title": "Use a Bezier Curve to Move a Graphic",
       "description": [
-        "A previous challenge discussed the <code>ease-out</code> keyword that describes an animation change that speeds up first and then slows down at the end of the animation. On the right, the difference between the <code>ease-out</code> keyword (for the blue element) and <code>linear</code> keyword (for the red element) are demonstrated. Similar animation progressions to the <code>ease-out</code> keyword can be achieved by using a custom cubic Bezier curve function.",
+        "A previous challenge discussed the <code>ease-out</code> keyword that describes an animation change that speeds up first and then slows down at the end of the animation. On the right, the difference between the <code>ease-out</code> keyword (for the blue element) and <code>linear</code> keyword (for the red element) is demonstrated. Similar animation progressions to the <code>ease-out</code> keyword can be achieved by using a custom cubic Bezier curve function.",
         "In general, changing the <code>p1</code> and <code>p2</code> anchor points drives the creation of different Bezier curves, which controls how the animation progresses through time. Here's an example of a Bezier curve using values to mimic the ease-out style:",
         "<code>animation-timing-function: cubic-bezier(0, 0, 0.58, 1);</code>",
-        "Remember that all <code>cubic-bezier</code> functions start with <code>p0</code> at (0, 0) and end with <code>p3</code> at (1, 1). In this example, the curve moves faster through the Y axis (starts at 0, goes to <code>p1</code> y value of 0, then goes to <code>p2</code> y value of 1) than it moves through the X axis (0 to start, then 0 for <code>p1</code>, up to 0.58 for <code>p2</code>). As a result, the change in the animated element progresses faster than the time of the animation for that segment. Towards the end of the curve, the relationship between the change in x and y values reverses - the y value moves from 1 to 1 (no change), and the x values move from 0.58 to 1, making the animation changes progress slower compared to the animation duration.",
+        "Remember that all <code>cubic-bezier</code> functions start with <code>p0</code> at (0, 0) and end with <code>p3</code> at (1, 1). In this example, the curve moves faster through the Y-axis (starts at 0, goes to <code>p1</code> y value of 0, then goes to <code>p2</code> y value of 1) then it moves through the X-axis (0 to start, then 0 for <code>p1</code>, up to 0.58 for <code>p2</code>). As a result, the change in the animated element progresses faster than the time of the animation for that segment. Towards the end of the curve, the relationship between the change in x and y values reverses - the y value moves from 1 to 1 (no change), and the x values move from 0.58 to 1, making the animation changes progress slower compared to the animation duration.",
         "<hr>",
         "To see the effect of this Bezier curve in action, change the <code>animation-timing-function</code> of the element with id of <code>red</code> to a <code>cubic-bezier</code> function with x1, y1, x2, y2 values set respectively to 0, 0, 0.58, 1. This will make both elements progress through the animation similarly."
       ],
@@ -3664,25 +2849,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     },
     {
       "id": "587d78a9367417b2b2512aea",
@@ -3741,25 +2910,9 @@
       "solutions": [],
       "hints": [],
       "type": "waypoint",
+      "releasedOn": "Feb 17, 2017",
       "challengeType": 0,
-      "translations": {
-        "de": {
-          "description": [],
-          "title": ""
-        },
-        "fr": {
-          "description": [],
-          "title": ""
-        },
-        "pt-br": {
-          "description": [],
-          "title": ""
-        },
-        "ru": {
-          "description": [],
-          "title": ""
-        }
-      }
+      "translations": {}
     }
   ]
 }
