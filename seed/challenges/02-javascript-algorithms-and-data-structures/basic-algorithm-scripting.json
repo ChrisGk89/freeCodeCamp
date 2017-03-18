@@ -324,7 +324,8 @@
       "tests": [
         "assert(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]).constructor === Array, 'message: <code>largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]])</code> should return an array.');",
         "assert.deepEqual(largestOfFour([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]]), [27, 5, 39, 1001], 'message: <code>largestOfFour([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]])</code> should return <code>[27, 5, 39, 1001]</code>.');",
-        "assert.deepEqual(largestOfFour([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]]), [9, 35, 97, 1000000], 'message: <code>largestOfFour([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]])</code> should return <code>[9, 35, 97, 1000000]</code>.');"
+        "assert.deepEqual(largestOfFour([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]]), [9, 35, 97, 1000000], 'message: <code>largestOfFour([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]])</code> should return <code>[9, 35, 97, 1000000]</code>.');",
+      	 "assert.deepEqual(largestOfFour([[17, 23, 25, 12], [25, 7, 34, 48], [4, -10, 18, 21], [-72, -3, -17, -10]]), [25, 48, 21, -3], 'message: <code>largestOfFour([[17, 23, 25, 12], [25, 7, 34, 48], [4, -10, 18, 21], [-72, -3, -17, -10]])</code> should return <code>[25, 48, 21, -3]</code>.');"
       ],
       "type": "bonfire",
       "isRequired": true,
@@ -629,9 +630,9 @@
       ],
       "tests": [
         "assert(typeof titleCase(\"I'm a little tea pot\") === \"string\", 'message: <code>titleCase(\"I&#39;m a little tea pot\")</code> should return a string.');",
-        "assert(titleCase(\"I'm a little tea pot\") === \"I'm A Little Tea Pot\", 'message: <code>titleCase(\"I&#39;m a little tea pot\")</code> should return \"I&#39;m A Little Tea Pot\".');",
-        "assert(titleCase(\"sHoRt AnD sToUt\") === \"Short And Stout\", 'message: <code>titleCase(\"sHoRt AnD sToUt\")</code> should return \"Short And Stout\".');",
-        "assert(titleCase(\"HERE IS MY HANDLE HERE IS MY SPOUT\") === \"Here Is My Handle Here Is My Spout\", 'message: <code>titleCase(\"HERE IS MY HANDLE HERE IS MY SPOUT\")</code> should return \"Here Is My Handle Here Is My Spout\".');"
+        "assert(titleCase(\"I'm a little tea pot\") === \"I'm A Little Tea Pot\", 'message: <code>titleCase(\"I&#39;m a little tea pot\")</code> should return <code>I&#39;m A Little Tea Pot</code>.');",
+        "assert(titleCase(\"sHoRt AnD sToUt\") === \"Short And Stout\", 'message: <code>titleCase(\"sHoRt AnD sToUt\")</code> should return <code>Short And Stout</code>.');",
+        "assert(titleCase(\"HERE IS MY HANDLE HERE IS MY SPOUT\") === \"Here Is My Handle Here Is My Spout\", 'message: <code>titleCase(\"HERE IS MY HANDLE HERE IS MY SPOUT\")</code> should return <code>Here Is My Handle Here Is My Spout</code>.');"
       ],
       "type": "bonfire",
       "isRequired": true,
@@ -786,13 +787,21 @@
       ],
       "tests": [
         "assert(getIndexToIns([10, 20, 30, 40, 50], 35) === 3, 'message: <code>getIndexToIns([10, 20, 30, 40, 50], 35)</code> should return <code>3</code>.');",
+        "assert(typeof(getIndexToIns([10, 20, 30, 40, 50], 35)) === \"number\", 'message: <code>getIndexToIns([10, 20, 30, 40, 50], 35)</code> should return a number.');",
         "assert(getIndexToIns([10, 20, 30, 40, 50], 30) === 2, 'message: <code>getIndexToIns([10, 20, 30, 40, 50], 30)</code> should return <code>2</code>.');",
+        "assert(typeof(getIndexToIns([10, 20, 30, 40, 50], 30)) === \"number\", 'message: <code>getIndexToIns([10, 20, 30, 40, 50], 30)</code> should return a number.');",
         "assert(getIndexToIns([40, 60], 50) === 1, 'message: <code>getIndexToIns([40, 60], 50)</code> should return <code>1</code>.');",
+        "assert(typeof(getIndexToIns([40, 60], 50)) === \"number\", 'message: <code>getIndexToIns([40, 60], 50)</code> should return a number.');",
         "assert(getIndexToIns([3, 10, 5], 3) === 0, 'message: <code>getIndexToIns([3, 10, 5], 3)</code> should return <code>0</code>.');",
+        "assert(typeof(getIndexToIns([3, 10, 5], 3)) === \"number\", 'message: <code>getIndexToIns([3, 10, 5], 3)</code> should return a number.');",
         "assert(getIndexToIns([5, 3, 20, 3], 5) === 2, 'message: <code>getIndexToIns([5, 3, 20, 3], 5)</code> should return <code>2</code>.');",
+        "assert(typeof(getIndexToIns([5, 3, 20, 3], 5)) === \"number\", 'message: <code>getIndexToIns([5, 3, 20, 3], 5)</code> should return a number.');",
         "assert(getIndexToIns([2, 20, 10], 19) === 2, 'message: <code>getIndexToIns([2, 20, 10], 19)</code> should return <code>2</code>.');",
+        "assert(typeof(getIndexToIns([2, 20, 10], 19)) === \"number\", 'message: <code>getIndexToIns([2, 20, 10], 19)</code> should return a number.');",
         "assert(getIndexToIns([2, 5, 10], 15) === 3, 'message: <code>getIndexToIns([2, 5, 10], 15)</code> should return <code>3</code>.');",
-        "assert(getIndexToIns([], 1) === 0, 'message: <code>getIndexToIns([], 1)</code> should return <code>0</code>.');"
+        "assert(typeof(getIndexToIns([2, 5, 10], 15)) === \"number\", 'message: <code>getIndexToIns([2, 5, 10], 15)</code> should return a number.');",
+        "assert(getIndexToIns([], 1) === 0, 'message: <code>getIndexToIns([], 1)</code> should return <code>0</code>.');",
+        "assert(typeof(getIndexToIns([], 1)) === \"number\", 'message: <code>getIndexToIns([], 1)</code> should return a number.');"
       ],
       "type": "bonfire",
       "isRequired": true,

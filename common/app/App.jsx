@@ -1,12 +1,11 @@
 import React, { PropTypes } from 'react';
-import { Button, Row } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
 
+import ns from './ns.json';
 import {
   fetchUser,
-  initWindowHeight,
-  updateNavHeight,
   updateAppLang,
   trackEvent,
   loadCurrentChallenge,
@@ -21,15 +20,13 @@ import Toasts from './toasts/Toasts.jsx';
 import { userSelector } from './redux/selectors';
 
 const mapDispatchToProps = {
-  initWindowHeight,
-  updateNavHeight,
+  closeDropdown,
   fetchUser,
-  submitChallenge,
-  updateAppLang,
-  trackEvent,
   loadCurrentChallenge,
   openDropdown,
-  closeDropdown
+  submitChallenge,
+  trackEvent,
+  updateAppLang
 };
 
 const mapStateToProps = createSelector(
@@ -56,23 +53,21 @@ const mapStateToProps = createSelector(
 
 const propTypes = {
   children: PropTypes.node,
-  username: PropTypes.string,
-  isSignedIn: PropTypes.bool,
-  points: PropTypes.number,
-  picture: PropTypes.string,
-  toast: PropTypes.object,
-  updateNavHeight: PropTypes.func,
-  initWindowHeight: PropTypes.func,
-  submitChallenge: PropTypes.func,
+  closeDropdown: PropTypes.func.isRequired,
   fetchUser: PropTypes.func,
-  showLoading: PropTypes.bool,
-  params: PropTypes.object,
-  updateAppLang: PropTypes.func.isRequired,
-  trackEvent: PropTypes.func.isRequired,
+  isNavDropdownOpen: PropTypes.bool,
+  isSignedIn: PropTypes.bool,
   loadCurrentChallenge: PropTypes.func.isRequired,
   openDropdown: PropTypes.func.isRequired,
-  closeDropdown: PropTypes.func.isRequired,
-  isNavDropdownOpen: PropTypes.bool
+  params: PropTypes.object,
+  picture: PropTypes.string,
+  points: PropTypes.number,
+  showLoading: PropTypes.bool,
+  submitChallenge: PropTypes.func,
+  toast: PropTypes.object,
+  trackEvent: PropTypes.func.isRequired,
+  updateAppLang: PropTypes.func.isRequired,
+  username: PropTypes.string
 };
 
 // export plain class for testing
@@ -84,7 +79,6 @@ export class FreeCodeCamp extends React.Component {
   }
 
   componentDidMount() {
-    this.props.initWindowHeight();
     if (!this.props.isSignedIn) {
       this.props.fetchUser();
     }
@@ -110,7 +104,6 @@ export class FreeCodeCamp extends React.Component {
       username,
       points,
       picture,
-      updateNavHeight,
       trackEvent,
       loadCurrentChallenge,
       openDropdown,
@@ -118,23 +111,22 @@ export class FreeCodeCamp extends React.Component {
       isNavDropdownOpen
     } = this.props;
     const navProps = {
-      username,
-      points,
-      picture,
-      updateNavHeight,
-      trackEvent,
+      closeDropdown,
+      isNavDropdownOpen,
       loadCurrentChallenge,
       openDropdown,
-      closeDropdown,
-      isNavDropdownOpen
+      picture,
+      points,
+      trackEvent,
+      username
     };
 
     return (
-      <div>
+      <div className={ `${ns}-container` }>
         <Nav { ...navProps }/>
-        <Row>
+        <div className={ `${ns}-content` }>
           { this.props.children }
-        </Row>
+        </div>
         <Toasts />
       </div>
     );

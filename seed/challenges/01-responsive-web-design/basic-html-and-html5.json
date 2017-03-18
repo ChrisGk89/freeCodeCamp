@@ -34,7 +34,7 @@
       "title": "Say Hello to HTML Elements",
       "description": [
         "Welcome to freeCodeCamp's coding challenges. These will walk you through web development step-by-step.",
-        "We recommend you do these in order, but feel free to skip around by clicking the map on the left.",
+        "We recommend you do these in order, but feel free to skip around by clicking the map in the menu above.",
         "Also, if you want to save your progress, you should join our community by creating an account. In just a few minutes, you can join our chat room, forum, and even a local study group in your city.",
         "First, you'll start by building a simple web page using HTML. You can edit <code>code</code> in your <code>text editor</code>, which is embedded into this web page.",
         "Do you see the code in your text editor that says <code>&#60;h1&#62;Hello&#60;/h1&#62;</code>? That's an HTML <code>element</code>.",
@@ -549,7 +549,7 @@
     },
     {
       "id": "bad87fee1348bd9aedf08812",
-      "title": "Add Images to your Website",
+      "title": "Add Images to Your Website",
       "description": [
         "You can add images to your website by using the <code>img</code> element, and point to a specific image's URL using the <code>src</code> attribute.",
         "An example of this would be:",
@@ -841,7 +841,7 @@
     },
     {
       "id": "bad87fee1348bd9aedf08817",
-      "title": "Make Dead Links using the Hash Symbol",
+      "title": "Make Dead Links Using the Hash Symbol",
       "description": [
         "Sometimes you want to add <code>a</code> elements to your website before you know where they will link.",
         "This is also handy when you're changing the behavior of a link using <code>jQuery</code>, which we'll learn about later.",
@@ -1596,7 +1596,7 @@
         "Here's an example of a radio button:",
         "<code>&#60;label&#62;&#60;input type=\"radio\" name=\"indoor-outdoor\"&#62; Indoor&#60;/label&#62;</code>",
         "<hr>",
-        "Add a pair of radio buttons to your form. One should have the option of <code>indoor</code> and the other should have the option of <code>outdoor</code>."
+        "Add a pair of radio buttons to your form. One should have the option of <code>indoor</code> and the other should have the option of <code>outdoor</code>. Both should share the <code>name</code> attribute of <code>indoor-outdoor</code>."
       ],
       "challengeSeed": [
         "<h2>CatPhotoApp</h2>",
@@ -1882,7 +1882,7 @@
     },
     {
       "id": "bad87fee1348bd9aede08835",
-      "title": "Nest Many Elements within a Single Div Element",
+      "title": "Nest Many Elements within a Single div Element",
       "description": [
         "The <code>div</code> element, also known as a division element, is a general purpose container for other elements.",
         "The <code>div</code> element is probably the most commonly used HTML element of all.",
@@ -1932,7 +1932,7 @@
       "challengeType": 0,
       "translations": {
         "de": {
-          "title": "Umschließe viele Elemente mit einem einzigen Div Element",
+          "title": "Umschließe viele Elemente mit einem einzigen div Element",
           "description": [
             "Das <code>div</code> Element oder \"Division\" ist ein allgemeiner Container für andere Elemente.",
             "Das <code>div</code> Element ist wahrscheinlich das am häufigsten verwendete HTML Element.",
@@ -1943,7 +1943,7 @@
           ]
         },
         "es": {
-          "title": "Anida muchos elementos dentro de una sólo elemento Div",
+          "title": "Anida muchos elementos dentro de una sólo elemento div",
           "description": [
             "El elemento <code>div</code>, también conocido como un elemento de división, es un contenedor de propósito general para otros elementos.",
             "El elemento <code>div</code> es probablemente el elemento HTML más utilizado.",
@@ -1954,7 +1954,7 @@
           ]
         },
         "pt-br": {
-          "title": "Aninhe Muitos Elementos Dentro de um só Elemento Div",
+          "title": "Aninhe Muitos Elementos Dentro de um só Elemento div",
           "description": [
             "O elemento <code>div</code>, também conhecido como elemento de divisão, é um contentor de propósito geral para outros elementos.",
             "O elemento <code>div</code> é provavelmente o elemento HTML mais utilizado.",

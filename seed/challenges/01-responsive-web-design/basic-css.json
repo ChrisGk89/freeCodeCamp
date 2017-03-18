@@ -695,11 +695,12 @@
       "title": "Import a Google Font",
       "description": [
         "Now, let's import and apply a Google font (note that if Google is blocked in your country, you will need to skip this challenge).",
-        "First, you'll need to make a <code>call</code> to Google to grab the <code>Lobster</code> font and load it into your HTML.",
-        "Copy the following code snippet and paste it into the top of your code editor:",
+        "<a href='https://fonts.google.com/' target='_blank'>Google Fonts</a> is a free library of web fonts that you can use in your CSS by referencing the font's URL.",
+        "To import a Google Font, you can copy the font(s) URL from the Google Fonts library and then paste it in your HTML. For this challenge, we'll import the <code>Lobster</code> font. To do this, copy the following code snippet and paste it into the top of your code editor:",
         "<code>&#60;link href=\"https://fonts.googleapis.com/css?family=Lobster\" rel=\"stylesheet\" type=\"text/css\"&#62;</code>",
-        "Remember, before you can apply styles, like a new font, to an element, you'll need to create a CSS rule.",
-        "<blockquote>h2 {<br>  font-family: Sans-Serif;<br>}</blockquote>",
+        "Now you can use the <code>Lobster</code> font in your CSS by using <code>Lobster</code> as the FAMILY_NAME as in the following example:<br><code>font-family: FAMILY_NAME, GENERIC_NAME;</code>.",
+        "The GENERIC_NAME is optional, and is a fallback font in case the other specified font is not available. This is covered in the next challenge.",
+        "Family names are case-sensitive and need to be wrapped in quotes if there is a space in the name. For example, you need quotes to use the <code>\"Open Sans\"</code> font, but not to use the <code>Lobster</code> font.",
         "<hr>",
         "Create a CSS rule for the <code>font-family</code> of <code>Lobster</code> and apply this new font to your <code>h2</code> element."
       ],
@@ -807,12 +808,14 @@
       "id": "bad87fee1348bd9aedf08808",
       "title": "Specify How Fonts Should Degrade",
       "description": [
-        "There are several default fonts that are available in all browsers. These include <code>Monospace</code>, <code>Serif</code> and <code>Sans-Serif</code>",
+        "There are several default fonts that are available in all browsers. These generic font families include <code>Monospace</code>, <code>Serif</code> and <code>Sans-Serif</code>",
         "When one font isn't available, you can tell the browser to \"degrade\" to another font.",
         "For example, if you wanted an element to use the <code>Helvetica</code> font, but also degrade to the <code>Sans-Serif</code> font when <code>Helvetica</code> wasn't available, you could use this CSS style:",
         "<blockquote>p {<br>&nbsp;&nbsp;font-family: Helvetica, Sans-Serif;<br>}</blockquote>",
+        "Generic font family names are not case-sensitive. Also, they do not need quotes because they are CSS keywords.",
         "<hr>",
-        "Now comment out your call to Google Fonts, so that the <code>Lobster</code> font isn't available. You'll also have to make sure the heading font gets degraded to <code>Monospace</code>. Some CSS changes will be necessary for this.",
+        "To begin with, apply the <code>Monospace</code> font to the <code>h2</code> element, so that it now has two fonts - <code>Lobster</code> and <code>Monospace</code>.",
+        "In the last challenge, you imported the <code>Lobster</code> font using the <code>link</code> tag. Now comment out that import of the <code>Lobster</code> font from Google Fonts so that it isn't available anymore. Notice how your <code>h2</code> element degrades to the <code>Monospace</code> font.",
         "<strong>Note</strong><br>If you have the Lobster font installed on your computer, you won't see the degradation because your browser is able to find the font."
       ],
       "challengeSeed": [
@@ -922,7 +925,7 @@
     },
     {
       "id": "bad87fee1348bd9acdf08812",
-      "title": "Size your Images",
+      "title": "Size Your Images",
       "description": [
         "CSS has a property called <code>width</code> that controls an element's width. Just like with fonts, we'll use <code>px</code> (pixels) to specify the image's width.",
         "For example, if we wanted to create a CSS class called <code>larger-image</code> that gave HTML elements a width of 500 pixels, we'd use:",
@@ -1037,7 +1040,7 @@
     },
     {
       "id": "bad87fee1348bd9bedf08813",
-      "title": "Add Borders Around your Elements",
+      "title": "Add Borders Around Your Elements",
       "description": [
         "CSS borders have properties like <code>style</code>, <code>color</code> and <code>width</code>",
         "For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:",
@@ -1167,7 +1170,7 @@
     },
     {
       "id": "bad87fee1348bd9aedf08814",
-      "title": "Add Rounded Corners with a Border Radius",
+      "title": "Add Rounded Corners with border-radius",
       "description": [
         "Your cat photo currently has sharp corners. We can round out those corners with a CSS property called <code>border-radius</code>.",
         "<hr>",
@@ -1241,7 +1244,7 @@
       "challengeType": 0,
       "translations": {
         "de": {
-          "title": "Füge abgerundete Ecken mit Border Radius hinzu",
+          "title": "Füge abgerundete Ecken mit border-radius hinzu",
           "description": [
             "Dein Katzenfoto hat momentan spitze Ecken. Wir können diese Ecken mit dem CSS Attribut <code>border-radius</code> abrunden.",
             "<hr>",
@@ -1250,7 +1253,7 @@
           ]
         },
         "es": {
-          "title": "Agrega esquinas redondeadas usando Border Radius",
+          "title": "Agrega esquinas redondeadas usando border-radius",
           "description": [
             "Tu foto del gato tiene actualmente esquinas angulares. Podemos redondear esas esquinas con una propiedad CSS llamada <code>border-radius</code>.",
             "<hr>",
@@ -1259,7 +1262,7 @@
           ]
         },
         "pt-br": {
-          "title": "Insira Bordas Arredondadas com o Border Radius",
+          "title": "Insira Bordas Arredondadas com o border-radius",
           "description": [
             "Sua foto com o gato possui cantos pontiagudos. Podemos arredondar os cantos com uma propriedade CSS chamado <code>border-radius</code>.",
             "<hr>",
@@ -1280,7 +1283,7 @@
     },
     {
       "id": "bad87fee1348bd9aedf08815",
-      "title": "Make Circular Images with a Border Radius",
+      "title": "Make Circular Images with a border-radius",
       "description": [
         "In addition to pixels, you can also specify a <code>border-radius</code> using a percentage.",
         "<hr>",
@@ -1347,14 +1350,14 @@
         "</main>"
       ],
       "tests": [
-        "assert(parseInt($(\"img\").css(\"border-top-left-radius\")) > 48, 'message: Your image should have a border radius of <code>50&#37;</code>&#44; making it perfectly circular.');",
-        "assert(code.match(/50%/g), 'message: Be sure to use a percentage value of <code>50&#37;</code>.');"
+        "assert(parseInt($(\"img\").css(\"border-top-left-radius\")) > 48, 'message: Your image should have a border radius of <code>50%</code>, making it perfectly circular.');",
+        "assert(code.match(/50%/g), 'message: Be sure to use a percentage value of <code>50%</code>.');"
       ],
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
         "de": {
-          "title": "Erstelle runde Bilder mit einem Border Radius",
+          "title": "Erstelle runde Bilder mit einem border-radius",
           "description": [
             "Du kannst einem <code>border-radius</code> neben Pixeln auch Prozentwerte zuweisen.",
             "<hr>",
@@ -1362,7 +1365,7 @@
           ]
         },
         "es": {
-          "title": "Crea imágenes circulares usando Border Radius",
+          "title": "Crea imágenes circulares usando border-radius",
           "description": [
             "Además de pixeles, puedes especificar un <code>border-radius</code> usando porcentajes.",
             "<hr>",
@@ -1370,7 +1373,7 @@
           ]
         },
         "pt-br": {
-          "title": "Deixe as Imagens Circulares com o Border Radius",
+          "title": "Deixe as Imagens Circulares com o border-radius",
           "description": [
             "Assim como pixels, você também pode usar o <code>border-radius</code> com porcentagens.",
             "<hr>",
@@ -1389,7 +1392,7 @@
     },
     {
       "id": "bad87fed1348bd9aede07836",
-      "title": "Give a Background Color to a Div Element",
+      "title": "Give a Background Color to a div Element",
       "description": [
         "You can set an element's background color with the <code>background-color</code> property.",
         "For example, if you wanted an element's background color to be <code>green</code>, you'd put this within your <code>style</code> element:",
@@ -1465,7 +1468,7 @@
       "challengeType": 0,
       "translations": {
         "de": {
-          "title": "Gib einem Div Element eine Hintergrundfarbe",
+          "title": "Gib einem div Element eine Hintergrundfarbe",
           "description": [
             "Du kannst die Hintergrundfarbe von einem Element mit dem <code>background-color</code> Attribut setzen",
             "Wenn du zum Beispiel die Hintergrundfarbe von einem Element <code>green</code> machen willst, schreibe dies in dein <code>style</code> Element:",
@@ -1475,7 +1478,7 @@
           ]
         },
         "es": {
-          "title": "Da un color de fondo a un elemento Div",
+          "title": "Da un color de fondo a un elemento div",
           "description": [
             "Puedes fijar el color de fondo de un elemento con la propiedad <code>background-color</code>.",
             "Por ejemplo, si quieres que el color de fondo de un elemento sea verde (<code>green</code>), dentro de tu elemento <code>style</code> pondrías:",
@@ -1485,7 +1488,7 @@
           ]
         },
         "pt-br": {
-          "title": "Dê uma Cor de Fundo a um Elemento Div",
+          "title": "Dê uma Cor de Fundo a um Elemento div",
           "description": [
             "Você pode acrescentar uma cor de fundo de um elemento com a propriedade <code>background-color</code>.",
             "Por exemplo, se você quiser que a cor de fundo de um elemento seja verde (<code>green</code>), dentro de seu elemento <code>style</code> seria assim:",
@@ -1510,7 +1513,7 @@
     },
     {
       "id": "bad87eee1348bd9aede07836",
-      "title": "Set the ID of an Element",
+      "title": "Set the id of an Element",
       "description": [
         "In addition to classes, each HTML element can also have an <code>id</code> attribute.",
         "There are several benefits to using <code>id</code> attributes: You can use an <code>id</code> to style a single element and later you'll learn that you can use them to select and modify specific elements with JavaScript.",
@@ -1642,7 +1645,7 @@
     },
     {
       "id": "bad87dee1348bd9aede07836",
-      "title": "Use an ID Attribute to Style an Element",
+      "title": "Use an id Attribute to Style an Element",
       "description": [
         "One cool thing about <code>id</code> attributes is that, like classes, you can style them using CSS.",
         "However, an <code>id</code> is not reusable and should only be applied to one element. An <code>id</code> also has a higher specificity (importance) than a class so if both are applied to the same element and have conflicting styles, the styles of the <code>id</code> will be applied.",
@@ -1775,7 +1778,7 @@
     },
     {
       "id": "bad88fee1348bd9aedf08825",
-      "title": "Adjusting the Padding of an Element",
+      "title": "Adjust the Padding of an Element",
       "description": [
         "Now let's put our Cat Photo App away for a little while and learn more about styling HTML.",
         "You may have already noticed this, but all HTML elements are essentially little rectangles.",
@@ -2966,7 +2969,7 @@
         "assert($(\"h1\").hasClass(\"pink-text\"), 'message: Your <code>h1</code> element should have the class <code>pink-text</code>.');",
         "assert($(\"h1\").hasClass(\"blue-text\"), 'message: Your <code>h1</code> element should have the class <code>blue-text</code>.');",
         "assert($(\"h1\").attr(\"id\") === \"orange-text\", 'message: Your <code>h1</code> element should have the id of <code>orange-text</code>.');",
-        "assert(code.match(/<h1[\\s\\S]*?style/gi) && code.match(/<h1[\\s\\S]*?style[\\s\\S]*?color\\s*?:/gi), 'message: Give your <code>h1</code> element the inline style of <code>color&#58; white</code>.');",
+        "assert(document.querySelector('h1[style]'), 'message: Give your <code>h1</code> element an inline style.');",
         "assert($(\"h1\").css(\"color\") === \"rgb(255, 255, 255)\", 'message: Your <code>h1</code> element should be white.');"
       ],
       "type": "waypoint",
@@ -3120,7 +3123,7 @@
       "title": "Use Hex Code for Specific Colors",
       "description": [
         "Did you know there are other ways to represent colors in CSS? One of these ways is called hexadecimal code, or <code>hex code</code> for short.",
-        "We usually use <code>decimals</code>, or base 10 numbers, which use the symbols 0 to 9 for each digit. <code>Hexadecimals</code> (or <code>hex</code>) are base 16 numbers. This means it uses sixteen distinct symbols. Like decimals, the symbols 0-9 represent values zero to nine. Then A,B,C,D,E,F represent values ten to fifteen. Altogether, 0 to F can represent a digit in <code>hexadecimal</code>, giving us 16 total possible values. You can find more information about <a target='_blank' href='https://en.wikipedia.org/wiki/Hexadecimal'>hexadecimal numbers here</a>.",
+        "We usually use <code>decimals</code>, or base 10 numbers, which use the symbols 0 to 9 for each digit. <code>Hexadecimals</code> (or <code>hex</code>) are base 16 numbers. This means it uses sixteen distinct symbols. Like decimals, the symbols 0-9 represent the values zero to nine. Then A,B,C,D,E,F represent the values ten to fifteen. Altogether, 0 to F can represent a digit in <code>hexadecimal</code>, giving us 16 total possible values. You can find more information about <a target='_blank' href='https://en.wikipedia.org/wiki/Hexadecimal'>hexadecimal numbers here</a>.",
         "In CSS, we can use 6 hexadecimal digits to represent colors, two each for the red (R), green (G), and blue (B) components. For example, <code>#000000</code> is black and is also the lowest possible value. You can find more information about the <a target='_blank' href='https://en.wikipedia.org/wiki/RGB_color_model'>RGB color system here</a>.",
         "<hr>",
         "Replace the word <code>black</code> in our <code>body</code> element's background-color with its <code>hex code</code> representation, <code>#000000</code>."

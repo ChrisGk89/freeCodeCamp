@@ -107,7 +107,7 @@
         "<blockquote>let twentyThree = 'XXIII';<br>let romanNumerals = ['XXI', 'XXII'];<br><br>romanNumerals.unshift('XIX', 'XX');<br>// now equals ['XIX', 'XX', 'XXI', 'XXII']<br><br>romanNumerals.push(twentyThree);<br>// now equals ['XIX', 'XX', 'XXI', 'XXII', 'XXIII']",
         "Notice that we can also pass variables, which allows us even greater flexibility in dynamically modifying our array's data.",
         "<hr>",
-        "We have defined a function, <code>mixedNumbers</code>, which we are passing an array as an argument. Modify the function by using <code>push()</code> and <code>unshift()</code> to add <code>'I', 2, 'three'</code> to the beginning of the array and <code>7, 'VIII', '9'</code> to the end so that the returned array contains representations of the numbers 1-9 in order."
+        "We have defined a function, <code>mixedNumbers</code>, which we are passing an array as an argument. Modify the function by using <code>push()</code> and <code>unshift()</code> to add <code>'I', 2, 'three'</code> to the beginning of the array and <code>7, 'VIII', 9</code> to the end so that the returned array contains representations of the numbers 1-9 in order."
       ],
       "challengeSeed": [
         "function mixedNumbers(arr) {",
@@ -121,7 +121,7 @@
         "console.log(mixedNumbers(['IV', 5, 'six']));"
       ],
       "tests": [
-        "assert.deepEqual(mixedNumbers(['IV', 5, 'six']), ['I', 2, 'three', 'IV', 5, 'six', 7, 'VIII', '9'], 'message: <code>mixedNumbers([\"IV\", 5, \"six\"])</code> should now return <code>[\"I\", 2, \"three\", \"IV\", 5, \"six\", 7, \"VIII\", \"9\"]</code>');",
+        "assert.deepEqual(mixedNumbers(['IV', 5, 'six']), ['I', 2, 'three', 'IV', 5, 'six', 7, 'VIII', 9], 'message: <code>mixedNumbers([\"IV\", 5, \"six\"])</code> should now return <code>[\"I\", 2, \"three\", \"IV\", 5, \"six\", 7, \"VIII\", 9]</code>');",
         "assert.notStrictEqual(mixedNumbers.toString().search(/\\.push\\(/), -1, 'message: The <code>mixedNumbers</code> function should utilize the <code>push()</code> method');",
         "assert.notStrictEqual(mixedNumbers.toString().search(/\\.unshift\\(/), -1, 'message: The <code>mixedNumbers</code> function should utilize the <code>unshift()</code> method');"
       ],
@@ -290,7 +290,7 @@
         "assert.deepEqual(copyMachine([1, 2, 3], 5), [[1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3]], 'message: <code>copyMachine([1, 2, 3], 5)</code> should return <code>[[1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3]]</code>');",
         "assert.deepEqual(copyMachine([true, true, null], 1), [[true, true, null]], 'message: <code>copyMachine([true, true, null], 1)</code> should return <code>[[true, true, null]]</code>');",
         "assert.deepEqual(copyMachine(['it works'], 3), [['it works'], ['it works'], ['it works']], 'message: <code>copyMachine([\"it works\"], 3)</code> should return <code>[[\"it works\"], [\"it works\"], [\"it works\"]]</code>');",
-        "assert.notStrictEqual(copyMachine.toString().search(/[...]/), -1, 'message: The <code>copyMachine</code> function should utilize the <code>...</code> operator');"
+        "assert.notStrictEqual(copyMachine.toString().indexOf('.concat(_toConsumableArray(arr))'), -1, 'message: The <code>copyMachine</code> function should utilize the <code>spread operator</code> with array <code>arr</code>');"
       ],
       "type": "waypoint",
       "releasedOn": "Feb 17, 2017",
@@ -595,7 +595,7 @@
     },
     {
       "id": "587d7b7c367417b2b2512b1b",
-      "title": "Use the Delete Keyword to Remove Object Properties",
+      "title": "Use the delete Keyword to Remove Object Properties",
       "description": [
         "Now you know what objects are and their basic features and advantages. In short, they are key-value stores which provide a flexible, intuitive way to structure data, <strong><em>and</em></strong>, they provide very fast lookup time. Throughout the rest of these challenges, we will describe several common operations you can perform on objects so you can become comfortable applying these useful data structures in your programs.",
         "In earlier challenges, we have both added to and modified an object's key-value pairs. Here we will see how we can <em>remove</em> a key-value pair from an object.",

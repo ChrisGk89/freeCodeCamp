@@ -50,7 +50,6 @@ var Rx = require('rx'),
 
 Rx.config.longStackSupport = true;
 var sync = browserSync.create('fcc-sync-server');
-var reload = sync.reload.bind(sync);
 
 // user definable
 var __DEV__ = !yargs.argv.p;
@@ -88,34 +87,32 @@ var paths = {
   },
 
   vendorChallenges: [
-    'public/bower_components/jshint/dist/jshint.js',
-    'public/bower_components/chai/chai.js',
-    'public/bower_components/CodeMirror/lib/codemirror.js',
-    'public/bower_components/CodeMirror/addon/comment/comment.js',
-    'public/bower_components/CodeMirror/addon/edit/closebrackets.js',
-    'public/bower_components/CodeMirror/addon/edit/matchbrackets.js',
-    'public/bower_components/CodeMirror/addon/lint/lint.js',
-    'public/bower_components/CodeMirror/addon/lint/javascript-lint.js',
-    'public/bower_components/CodeMirror/mode/javascript/javascript.js',
-    'public/bower_components/CodeMirror/mode/xml/xml.js',
-    'public/bower_components/CodeMirror/mode/css/css.js',
-    'public/bower_components/CodeMirror/mode/htmlmixed/htmlmixed.js',
-    'node_modules/emmet-codemirror/dist/emmet.js',
+    require.resolve('jshint').replace('src', 'dist'),
+    require.resolve('chai').replace('index.js', 'chai.js'),
+    require.resolve('codemirror'),
+    require.resolve('codemirror').replace('lib/codemirror.js', 'addon/comment/comment.js'),
+    require.resolve('codemirror').replace('lib/codemirror.js', 'addon/edit/closebrackets.js'),
+    require.resolve('codemirror').replace('lib/codemirror.js', 'addon/edit/matchbrackets.js'),
+    require.resolve('codemirror').replace('lib/codemirror.js', 'addon/lint/lint.js'),
+    require.resolve('codemirror').replace('lib/codemirror.js', 'addon/lint/javascript-lint.js'),
+    require.resolve('codemirror').replace('lib/codemirror.js', 'mode/javascript/javascript.js'),
+    require.resolve('codemirror').replace('lib/codemirror.js', 'mode/xml/xml.js'),
+    require.resolve('codemirror').replace('lib/codemirror.js', 'mode/css/css.js'),
+    require.resolve('codemirror').replace('lib/codemirror.js', 'mode/htmlmixed/htmlmixed.js'),
+    require.resolve('emmet-codemirror'),
     'public/js/lib/loop-protect/loop-protect.js'
   ],
 
   vendorMain: [
-    'public/bower_components/jquery/dist/jquery.min.js',
-    'public/bower_components/bootstrap/dist/js/bootstrap.min.js',
-    'public/bower_components/d3/d3.min.js',
-    'public/bower_components/moment/min/moment.min.js',
-
-    'public/bower_components/' +
-      'moment-timezone/builds/moment-timezone-with-data.min.js',
-
-    'public/bower_components/mousetrap/mousetrap.min.js',
-    'public/bower_components/lightbox2/dist/js/lightbox.min.js',
-    'public/bower_components/rxjs/dist/rx.all.min.js'
+    require.resolve('jquery').replace('.js', '.min.js'),
+    require.resolve('bootstrap').replace('npm.js', 'bootstrap.min.js'),
+    require.resolve('d3').replace('.js', '.min.js'),
+    require.resolve('cal-heatmap'),
+    require.resolve('moment').replace('.js', '.min.js'),
+    require.resolve('moment-timezone').replace('index.js', 'builds/moment-timezone-with-data.min.js'),
+    require.resolve('mousetrap').replace('.js', '.min.js'),
+    require.resolve('lightbox2').replace('.js', '.min.js'),
+    require.resolve('rx').replace('index.js', 'dist/rx.all.min.js')
   ],
 
   js: [
@@ -125,7 +122,10 @@ var paths = {
   ],
 
   less: './client/less/main.less',
-  lessFiles: './client/less/**/*.less',
+  lessFiles: [
+    './client/**/*.less',
+    './common/**/*.less'
+  ],
 
   manifest: 'server/manifests/',
 
@@ -177,7 +177,7 @@ gulp.task('serve', function(cb) {
     script: paths.server,
     ext: '.jsx .js .json',
     ignore: paths.serverIgnore,
-    exec: path.join(__dirname, 'node_modules/.bin/babel-node'),
+    exec: path.normalize('node_modules/.bin/babel-node'),
     env: {
       NODE_ENV: process.env.NODE_ENV || 'development',
       DEBUG: process.env.DEBUG || 'fcc:*',
@@ -305,7 +305,10 @@ gulp.task('less', function() {
     .pipe(__DEV__ ? sourcemaps.init() : gutil.noop())
     // compile
     .pipe(less({
-      paths: [ path.join(__dirname, 'less', 'includes') ]
+      paths: [
+        path.join(__dirname, 'client', 'less'),
+        path.join(__dirname, 'common')
+      ]
     }))
     .pipe(__DEV__ ?
       sourcemaps.write({ sourceRoot: '/less' }) :
